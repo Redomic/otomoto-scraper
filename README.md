@@ -1,20 +1,24 @@
 # Otomoto Scraper
 
-Scrape Otomoto.pl Polish car listings: one run returns used-car rows with price, make, model, year, mileage, fuel, gearbox, seller and URL.
+Export car listings from Otomoto.pl, Poland's largest car marketplace, to a spreadsheet or an API. Each row is one car: price in PLN, make, model, year, mileage, engine, fuel, gearbox, location and seller. Paste a search URL from otomoto.pl or set a few filters, and the first results arrive in about 30 seconds.
 
-**Run it in the cloud, no setup:** [https://apify.com/redomic/otomoto-scraper](https://apify.com/redomic/otomoto-scraper). Works on Apify's free plan; about $3.00 per 1,000 results
+**Run it in the cloud, no setup:** [https://apify.com/redomic/otomoto-scraper](https://apify.com/redomic/otomoto-scraper). Works on Apify's free plan; about $0.75 per 1,000 results
 (less on paid plans). Schedules, API, webhooks and CSV/Excel/JSON export are built in.
 
 ## What you get
-- Listing cards from any Otomoto.pl search, offer or dealer inventory URL, or from simple structured filters (make, model, location, year, price, mileage, fuel, gearbox, body type, seller type) — no need to hand-build an Otomoto URL. Body type filter uses Otomoto slugs such as `sedan`, `kombi`, `suv`, `compact`, `coupe`, `cabrio`, `minivan`, `city-car`.
-- Flat, analysis-ready rows: stable ID, URL, title, numeric price with ISO 4217 currency, make/model/version, year, mileage in km, engine capacity and power, fuel, gearbox, body type, country of origin, city/region, thumbnail, seller type and name, Otomoto's own price evaluation (`in`/`below`/`above`/`none`), price-drop percentage, CEPiK verification flag and created date.
-- **In-run market benchmark (search/detail and monitor changes):** every priced row in a make+model group with 3+ listings gets `marketMedianPrice` and `priceVsMarketPct` (negative = below the scraped set median), and the run summary includes a `market` block (count, min/median/mean/max price, median mileage) so you can spot underpriced cars without a second run.
-- **Default mode is Detail (`"mode": "detail"`)**: opens every offer page and adds the full description (contacts scrubbed), photo gallery, equipment list, VIN (when Otomoto publishes it), CEPiK vehicle history (first registration, owners, insurance/inspection validity, damaged, accident-free, service record, original owner), color, doors, seats, transmission, seller GPS pin, and deal signals (`badges` when published).
-- **Search mode** (`"mode": "search"`): listing cards only (faster/cheaper), no per-offer enrichment.
-- **Monitor mode** (`"mode": "monitor"`): run on a schedule and get only `new`, `changed` (e.g. a price change) and `removed` listings since the previous run, with `previousPriceAmount`, `firstSeenAt`, `lastSeenAt`, a bounded `priceHistory`, `firstPrice`, `lowestPrice`, `priceDropPct`, `daysOnMarket`, and deal signals (`badges` when published). State is kept per source URL in a named key-value store. Unchanged runs bill $0; each `new`/`changed` row is charged once — the $0.003/change event buys Otomoto price history and time-on-market (`firstPrice`, `lowestPrice`, `priceDropPct`, `daysOnMarket`) that list-only scrapers do not return.
-- **Radius search**: set a `location` plus `radiusKm` to let Otomoto filter server-side, or set `lat`/`lng` in detail mode to get `distanceKm` from the seller's map pin.
-- **Dealer inventory crawl**: pass a dealer `*.otomoto.pl/inventory` URL to paginate the whole stock, with the dealer's name and ID on every row.
-- Per-source status rows and a run summary. Empty, sold or failed sources are reported, never silently skipped.
+A run with the default input (BMW, detail mode) on 15 November 2026 returned these cars, among others:
+
+| Car | Price (PLN) | Year | Mileage (km) | Fuel | Power (hp) | City | Seller |
+|---|---|---|---|---|---|---|---|
+| BMW Seria 3 330i M Sport Shadow | 46,999 | 2018 | 74,000 | petrol | 252 | Warszawa | dealer |
+| BMW Seria 5 530e PHEV | 73,677 | 2023 | 54,622 | plug-in hybrid | 299 | Warszawa | private |
+| BMW X3 xDrive30i Luxury Line | 97,000 | 2020 | 49,597 | petrol | 252 | Bielsk Podlaski | private |
+| BMW Seria 7 740i sport | 54,900 | 2019 | 115,000 | petrol | 340 | Warszawa | dealer |
+| BMW iX3 40 | 308,650 | 2026 | 10,000 | electric | 320 | Bydgoszcz | dealer |
+
+Every row also carries the listing URL, Otomoto's own price rating (below, in or above market), the photos, the full description and the equipment list. When the seller publishes them, you also get the VIN and the CEPiK history: first registration, number of owners, and the accident-free and service-record flags.
+
+You can download the results as CSV, Excel or JSON, or read them through the Apify API.
 
 ## Sample output
 Real rows from a recent run: [`sample.json`](sample.json) · [`sample.csv`](sample.csv)
@@ -45,18 +49,15 @@ Real rows from a recent run: [`sample.json`](sample.json) · [`sample.csv`](samp
   "sellerId": "18253685",
   "sellerName": "Pan America",
   "sellerWebsite": "https://panamerica.otomoto.pl",
-  "priceEvaluation": "none",
+  "priceEvaluation": null,
   "priceDropPercentage": null,
   "priceDropLowestPrice": null,
   "priceDropCurrency": null,
   "cepikVerified": false,
   "createdAt": "2026-11-09T16:11:14Z",
   "shortDescription": "BMW 430i Coupe 2018 | M Pakiet | xDrive | Automat",
-  "badges": [],
-  "scrapedAt": "2026-11-14T19:33:41Z",
-  "marketMedianPrice": 49399.5,
-  "priceVsMarketPct": -16.19,
-  "daysListed": 5
+  "scrapedAt": "2026-11-15T20:31:24Z",
+  "daysListed": 6
 }
 ```
 
