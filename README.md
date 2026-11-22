@@ -53,6 +53,18 @@ Business buyers need to know whether they can reclaim VAT. When Otomoto shows th
 
 Both fields are left off a car where Otomoto publishes no such badge, so a private sale never gets a made-up `false`.
 
+Detail mode also returns `netPrice`, the VAT-exclusive figure Otomoto prints beside the gross price. It saves working the pre-tax price out yourself when you reclaim VAT. Here is a real Skoda Kamiq offer, where Otomoto shows 87,900 PLN gross and 71,464 PLN net:
+
+```json
+{
+  "title": "Skoda Kamiq 1.0 TSI Selection",
+  "priceAmount": 87900,
+  "netPrice": 71464
+}
+```
+
+The field is left off where Otomoto publishes no net price, so a search card or an offer page without the figure does not gain an empty column.
+
 Detail mode also tells you who is selling. Each row carries the seller's public Otomoto badges, the year they joined the site and how many cars they currently have listed, so you can tell an established dealer from a one-off seller. A dealer's row also includes `sellerAddress`, the public street address on their Otomoto profile, so you can see where a rival's stock actually sits. Here is a dealer from a real run:
 
 ```json
@@ -94,7 +106,34 @@ Every row also carries `sellerUuid`, Otomoto's stable identifier for the seller.
 
 Every row also carries the listing URL, Otomoto's own price rating (below, in or above market), the photos, the full description and the equipment list. When the seller publishes them, you also get the VIN and the CEPiK history: first registration, number of owners, and the accident-free and service-record flags.
 
+Set `noAccident` to `true` to keep only cars the seller marked as accident-free. In detail mode, cars Otomoto reports as accident-damaged are left out of the result. Here is the Skoda Kamiq from the offer page above, returned by an accident-free search:
+
+```json
+{
+  "title": "Skoda Kamiq 1.0 TSI Selection",
+  "priceAmount": 87900,
+  "year": 2025,
+  "mileageKm": 18500,
+  "noAccident": true,
+  "damaged": false,
+  "serviceRecord": true
+}
+```
+
 Every row names the vehicle section it belongs to in `categoryCode` (`osobowe`, `dostawcze`, `ciezarowe` and so on) and `categoryName` (`Osobowe`, `Dostawcze`, `Ciężarowe`). The value comes from Otomoto's own listing address or the category published on the offer page, so a run that mixes pasted searches from several sections stays easy to sort and filter.
+
+Each row also carries the same hierarchy a buyer sees on the page: `breadcrumbs` lists the section, make and model in order, and `breadcrumbUrls` gives the matching Otomoto category, make and model addresses. It is built from the section and the make/model Otomoto publishes on the listing, so cars from different searches file cleanly into your own catalogue. Here is the Skoda Kamiq offer from above:
+
+```json
+{
+  "breadcrumbs": ["Osobowe", "Skoda", "Kamiq"],
+  "breadcrumbUrls": [
+    "https://www.otomoto.pl/osobowe",
+    "https://www.otomoto.pl/osobowe/skoda",
+    "https://www.otomoto.pl/osobowe/skoda/kamiq"
+  ]
+}
+```
 
 In detail mode each car also carries Otomoto's own `status`, so a dealer watching a rival's stock can tell an active ad from one Otomoto has marked inactive, sold or expired. A Skoda Kamiq from a real offer page came back as:
 
@@ -231,6 +270,16 @@ Real rows from a recent run: [`sample.json`](sample.json) · [`sample.csv`](samp
   "shortDescription": "BMW 330i xDrive 2020 | 2.0 Turbo | Automat | M Sport Shadow",
   "categoryCode": "osobowe",
   "categoryName": "Osobowe",
+  "breadcrumbs": [
+    "Osobowe",
+    "BMW",
+    "Seria 3"
+  ],
+  "breadcrumbUrls": [
+    "https://www.otomoto.pl/osobowe",
+    "https://www.otomoto.pl/osobowe/bmw",
+    "https://www.otomoto.pl/osobowe/bmw/seria-3"
+  ],
   "promotionServices": [
     "export_olx",
     "topads",
@@ -632,7 +681,7 @@ Real rows from a recent run: [`sample.json`](sample.json) · [`sample.csv`](samp
     "Sprzedający na OTOMOTO od 2026"
   ],
   "sellerSinceYear": 2026,
-  "sellerActiveAdCount": 89,
+  "sellerActiveAdCount": 86,
   "description": "BMW 330i xDrive 2020 | 2.0 Turbo | Automat | Napęd 4x4 / M Sport Shadow\nNa sprzedaż BMW 330i xDrive z 2020 roku. Model G20 wyposażony w dynamiczny silnik benzynowy 2.0 TwinPower Turbo o mocy 258 KM, automatyczną skrzynię biegów oraz inteligentny napęd na cztery koła xDrive.\nDane techniczne:\nRok produkcji: 2020\nSilnik: 2.0 benzyna TwinPower Turbo (B48)\nMoc: 258 KM\nSkrzynia biegów: automatyczna Steptronic\nNapęd: xDrive (4x4)\nGeneracja: G20\nBMW 330i zapewnia świetne osiągi, precyzyjne prowadzenie i wysoki komfort jazdy. Połączenie mocnego silnika benzynowego z napędem xDrive gwarantuje doskonałą przyczepność i pewność prowadzenia w każdych warunkach.\nMożliwość sprowadzenia samochodu z USA pod dom.\nKażdy samochód przed zakupem przechodzi szczegółową weryfikację techniczną oraz kontrolę historii pojazdu. Sprawdzany jest stan mechaniczny, lakier, elektronika oraz wyposażenie.\nDodatkowo oferujemy możliwość wykonania szczegółowej inspekcji pojazdu przed zakupem, przeprowadzanej przez naszego rzeczoznawcę z ponad 15-letnim doświadczeniem w ocenie samochodów.\nW ramach inspekcji otrzymujesz:\nokoło 1 godziny nagrań wideo prezentujących samochód z każdej strony,\nponad 100 zdjęć w wysokiej jakości,\npełny odczyt wszystkich sterowników za pomocą komputera diagnostycznego,\npomiar grubości lakieru na każdym elemencie nadwozia profesjonalnym miernikiem lakieru,\nkontrolę silnika, skrzyni biegów, zawieszenia, podwozia oraz układu hamulcowego,\nsprawdzenie szczelności silnika i skrzyni biegów pod kątem wycieków,\nweryfikację elementów konstrukcyjnych oraz ewentualnych napraw powypadkowych,\nszczegółowy raport z oględzin wraz z rekomendacją dotyczącą zakupu.\nDzięki takiej weryfikacji dokładnie wiesz, w jakim stanie znajduje się samochód jeszcze przed jego zakupem i możesz podjąć świadomą decyzję, eliminując ryzyko nieprzewidzianych kosztów po odbiorze pojazdu.\nImport samochodu może pozwolić zaoszczędzić nawet 20–30% względem podobnych egzemplarzy na rynku polskim.",
   "photos": [
     "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InBrOHJlMzBwOWswcy1PVE9NT1RPUEwiLCJ3IjpbeyJmbiI6IndnNGducXA2eTFmLU9UT01PVE9QTCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.PuaacUqt_B1WSJSOVuOiel9xKMqpVLf3rAXFlZkU9NU/image",
@@ -1091,15 +1140,15 @@ Real rows from a recent run: [`sample.json`](sample.json) · [`sample.csv`](samp
   "updatedAt": "2026-11-09T15:33:16Z",
   "originalCreatedAt": "2026-11-02T14:04:41Z",
   "status": "ACTIVE",
-  "scrapedAt": "2026-11-21T00:57:57Z",
-  "marketMedianPrice": 74500,
-  "priceVsMarketPct": -20.81,
-  "marketCohortCount": 9,
+  "scrapedAt": "2026-11-21T23:24:31Z",
+  "marketMedianPrice": 66700,
+  "priceVsMarketPct": -11.54,
+  "marketCohortCount": 5,
   "marketOutlier": false,
   "belowMarket": true,
-  "daysListed": 11,
+  "daysListed": 12,
   "firstSeen": "2026-11-17T16:12:38Z",
-  "daysTracked": 3,
+  "daysTracked": 4,
   "previousPrice": 59000,
   "priceChange": 0,
   "priceChangePct": 0
