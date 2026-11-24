@@ -279,6 +279,33 @@ When you track competitors, it helps to know which of their cars pay for visibil
 }
 ```
 
+A search card also tells you how much a rival invests in their Otomoto presence: it carries the dealer's advertising package and the services they publish, so a fast search run returns that competitive signal without opening the offer. Here is a BMW from a real search:
+
+```json
+{
+  "title": "BMW Seria 4 430i GPF xDrive M Sport",
+  "priceAmount": 41400,
+  "city": "Warszawa",
+  "packages": ["Ultra"],
+  "sellerServices": ["financing", "repair", "fast-repair", "tinsmith"]
+}
+```
+
+Otomoto also flags the ads it places at the top of a search. Where that flag is published, a row carries `topAd: true` — it is a separate signal from the paid add-ons in `promotionServices`, because a top-placed ad does not always buy a `topads` add-on. Here is a real Volkswagen Golf:
+
+```json
+{
+  "title": "Volkswagen Golf",
+  "priceAmount": 33500,
+  "city": "Sobolew",
+  "region": "Mazowieckie",
+  "promotionServices": ["bump_up", "export_olx"],
+  "topAd": true
+}
+```
+
+Both stay off a row where Otomoto publishes no such value, so private sellers and ordinary ads get no empty column.
+
 You can download the results as CSV, Excel or JSON, or read them through the Apify API.
 
 If your pipeline expects the grouped JSON shape the leading Otomoto scrapers publish, set `outputShape` to `nested`: each car keeps its id, url and title at the top and groups price under `pricing`, specs under `vehicle`, city and region under `location`, dealer facts under `seller`, photos under `media`, equipment under `features` and the vehicle section under `category`. It is the same data from the same run, with no extra request and no change to what you pay.
@@ -288,94 +315,108 @@ Real rows from a recent run: [`sample.json`](sample.json) · [`sample.csv`](samp
 
 ```json
 {
-  "id": "6151550359",
-  "url": "https://www.otomoto.pl/dostawcze/oferta/ford-transit-l3h2-metalik-ID6Ijhgb.html",
-  "title": "Ford Transit L3H2 metalik",
-  "priceAmount": 125337,
+  "id": "6151856294",
+  "url": "https://www.otomoto.pl/osobowe/oferta/mercedes-benz-glb-ID6IkyQC.html",
+  "title": "Mercedes-Benz GLB 250 4-Matic AMG Line 8G-DCT",
+  "priceAmount": 49800,
   "priceCurrency": "PLN",
-  "priceIsGross": false,
-  "make": "Ford",
-  "makeSlug": "ford",
-  "model": "Transit L3H2 metalik",
-  "modelSlug": "Transit L3H2 metalik",
-  "version": null,
-  "year": 2026,
-  "mileageKm": 10,
-  "fuelType": "diesel",
-  "gearbox": null,
-  "engineCapacityCm3": 1995,
-  "enginePowerHp": 130,
+  "priceIsGross": true,
+  "make": "Mercedes-Benz",
+  "makeSlug": "mercedes-benz",
+  "model": "GLB",
+  "modelSlug": "glb",
+  "version": "250 4-Matic AMG Line 8G-DCT",
+  "year": 2021,
+  "mileageKm": 94288,
+  "fuelType": "petrol",
+  "gearbox": "automatic",
+  "engineCapacityCm3": 1991,
+  "enginePowerHp": 224,
   "city": "Warszawa",
   "region": "Mazowieckie",
-  "thumbnailUrl": "https://ireland.apollo.olxcdn.com/v1/files/q13av987mrg33-OTOMOTOPL/image;s=640x480",
+  "thumbnailUrl": "https://ireland.apollo.olxcdn.com/v1/files/pcxtstwwe3602-OTOMOTOPL/image;s=640x480",
   "sellerType": "business",
-  "sellerId": "17382644",
-  "sellerName": "STARTLEASE",
-  "sellerWebsite": "https://startlease.otomoto.pl",
-  "createdAt": "2026-11-05T22:25:17Z",
-  "shortDescription": "FORD Transit Van Trend 2.0 Ecoblue 130KM M6 FWD- metalik",
-  "categoryCode": "dostawcze",
-  "categoryName": "Dostawcze",
+  "sellerId": "18331088",
+  "sellerName": "ARBID Logistics",
+  "sellerWebsite": "https://arbid.otomoto.pl",
+  "createdAt": "2026-11-24T15:34:20Z",
+  "shortDescription": "Mercedes-Benz GLB 250 4MATIC 2021",
+  "categoryCode": "osobowe",
+  "categoryName": "Osobowe",
   "breadcrumbs": [
-    "Dostawcze",
-    "Ford",
-    "Transit L3H2 metalik"
+    "Osobowe",
+    "Mercedes-Benz",
+    "GLB"
   ],
   "breadcrumbUrls": [
-    "https://www.otomoto.pl/dostawcze",
-    "https://www.otomoto.pl/dostawcze/ford",
-    "https://www.otomoto.pl/dostawcze/ford/Transit L3H2 metalik"
+    "https://www.otomoto.pl/osobowe",
+    "https://www.otomoto.pl/osobowe/mercedes-benz",
+    "https://www.otomoto.pl/osobowe/mercedes-benz/glb"
   ],
-  "invoiceIssued": true,
-  "vatIncluded": true,
+  "verifiedCar": false,
   "promotionServices": [
     "topads",
-    "ad_homepage",
-    "bump_up",
     "export_olx"
   ],
-  "sellerUuid": "e3c03cc2-5585-4bb0-9a76-422038744067",
+  "packages": [
+    "Ultra"
+  ],
+  "sellerServices": [
+    "financing",
+    "repair",
+    "fast-repair",
+    "tinsmith"
+  ],
+  "sellerUuid": "beb49f3c-6f3e-4578-9db7-837f472c442e",
   "mainFeatures": [
-    "2026",
-    "10 km",
-    "1995 cm3",
-    "Diesel"
+    "2021",
+    "94288 km",
+    "1991 cm3",
+    "Benzyna"
   ],
   "attributes": {
     "make": {
-      "value": "ford",
-      "label": "Ford"
+      "value": "mercedes-benz",
+      "label": "Mercedes-Benz"
     },
     "fuel_type": {
-      "value": "diesel",
-      "label": "Diesel"
+      "value": "petrol",
+      "label": "Benzyna"
+    },
+    "gearbox": {
+      "value": "automatic",
+      "label": "Automatyczna"
     },
     "mileage": {
-      "value": "10",
-      "label": "10 km"
+      "value": "94288",
+      "label": "94288 km"
     },
     "engine_capacity": {
-      "value": "1995",
-      "label": "1995 cm3"
+      "value": "1991",
+      "label": "1991 cm3"
     },
     "engine_power": {
-      "value": "130",
-      "label": "130 KM"
+      "value": "224",
+      "label": "224 KM"
     },
     "model": {
-      "value": "Transit L3H2 metalik",
-      "label": "Transit L3H2 metalik"
+      "value": "glb",
+      "label": "GLB"
+    },
+    "version": {
+      "value": "ver-250-4--matic-amg-line-8g--dct",
+      "label": "250 4-Matic AMG Line 8G-DCT"
     },
     "year": {
-      "value": "2026",
-      "label": "2026"
+      "value": "2021",
+      "label": "2021"
     }
   },
-  "scrapedAt": "2026-11-23T21:26:24Z",
-  "daysListed": 17,
-  "firstSeen": "2026-11-23T00:29:04Z",
+  "scrapedAt": "2026-11-24T23:36:03Z",
+  "daysListed": 0,
+  "firstSeen": "2026-11-24T22:30:25Z",
   "daysTracked": 0,
-  "previousPrice": 125337,
+  "previousPrice": 49800,
   "priceChange": 0,
   "priceChangePct": 0
 }
@@ -388,7 +429,7 @@ Python ([apify-client](https://pypi.org/project/apify-client/)):
 from apify_client import ApifyClient
 
 client = ApifyClient("<YOUR_APIFY_TOKEN>")
-run = client.actor("redomic/otomoto-scraper").call(run_input={"mode": "search", "make": "BMW", "model": "Seria 3", "maxItems": 50, "priceDroppedOnly": true})
+run = client.actor("redomic/otomoto-scraper").call(run_input={"mode": "search", "make": "BMW", "model": "Seria 3", "maxItems": 50})
 for item in client.dataset(run["defaultDatasetId"]).iterate_items():
     print(item)
 ```
@@ -398,7 +439,7 @@ curl (waits for the run and returns the rows):
 ```bash
 curl -X POST "https://api.apify.com/v2/acts/redomic~otomoto-scraper/run-sync-get-dataset-items?token=$APIFY_TOKEN" \
   -H "Content-Type: application/json" \
-  -d '{"mode": "search", "make": "BMW", "model": "Seria 3", "maxItems": 50, "priceDroppedOnly": true}'
+  -d '{"mode": "search", "make": "BMW", "model": "Seria 3", "maxItems": 50}'
 ```
 
 ## All inputs, modes and pricing

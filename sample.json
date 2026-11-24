@@ -1,503 +1,534 @@
 [
   {
-    "id": "6151550359",
-    "url": "https://www.otomoto.pl/dostawcze/oferta/ford-transit-l3h2-metalik-ID6Ijhgb.html",
-    "title": "Ford Transit L3H2 metalik",
-    "priceAmount": 125337,
-    "priceCurrency": "PLN",
-    "priceIsGross": false,
-    "make": "Ford",
-    "makeSlug": "ford",
-    "model": "Transit L3H2 metalik",
-    "modelSlug": "Transit L3H2 metalik",
-    "version": null,
-    "year": 2026,
-    "mileageKm": 10,
-    "fuelType": "diesel",
-    "gearbox": null,
-    "engineCapacityCm3": 1995,
-    "enginePowerHp": 130,
-    "city": "Warszawa",
-    "region": "Mazowieckie",
-    "thumbnailUrl": "https://ireland.apollo.olxcdn.com/v1/files/q13av987mrg33-OTOMOTOPL/image;s=640x480",
-    "sellerType": "business",
-    "sellerId": "17382644",
-    "sellerName": "STARTLEASE",
-    "sellerWebsite": "https://startlease.otomoto.pl",
-    "createdAt": "2026-11-05T22:25:17Z",
-    "shortDescription": "FORD Transit Van Trend 2.0 Ecoblue 130KM M6 FWD- metalik",
-    "categoryCode": "dostawcze",
-    "categoryName": "Dostawcze",
-    "breadcrumbs": [
-      "Dostawcze",
-      "Ford",
-      "Transit L3H2 metalik"
-    ],
-    "breadcrumbUrls": [
-      "https://www.otomoto.pl/dostawcze",
-      "https://www.otomoto.pl/dostawcze/ford",
-      "https://www.otomoto.pl/dostawcze/ford/Transit L3H2 metalik"
-    ],
-    "invoiceIssued": true,
-    "vatIncluded": true,
-    "promotionServices": [
-      "topads",
-      "ad_homepage",
-      "bump_up",
-      "export_olx"
-    ],
-    "sellerUuid": "e3c03cc2-5585-4bb0-9a76-422038744067",
-    "mainFeatures": [
-      "2026",
-      "10 km",
-      "1995 cm3",
-      "Diesel"
-    ],
-    "attributes": {
-      "make": {
-        "value": "ford",
-        "label": "Ford"
-      },
-      "fuel_type": {
-        "value": "diesel",
-        "label": "Diesel"
-      },
-      "mileage": {
-        "value": "10",
-        "label": "10 km"
-      },
-      "engine_capacity": {
-        "value": "1995",
-        "label": "1995 cm3"
-      },
-      "engine_power": {
-        "value": "130",
-        "label": "130 KM"
-      },
-      "model": {
-        "value": "Transit L3H2 metalik",
-        "label": "Transit L3H2 metalik"
-      },
-      "year": {
-        "value": "2026",
-        "label": "2026"
-      }
-    },
-    "scrapedAt": "2026-11-23T21:26:24Z",
-    "daysListed": 17,
-    "firstSeen": "2026-11-23T00:29:04Z",
-    "daysTracked": 0,
-    "previousPrice": 125337,
-    "priceChange": 0,
-    "priceChangePct": 0
-  },
-  {
-    "id": "6148286851",
-    "url": "https://www.otomoto.pl/dostawcze/oferta/ford-transit-ID6I5AgX.html",
-    "title": "Ford Transit",
-    "priceAmount": 122877,
-    "priceCurrency": "PLN",
-    "priceIsGross": false,
-    "make": "Ford",
-    "makeSlug": "ford",
-    "model": "Transit",
-    "modelSlug": "Transit",
-    "version": null,
-    "year": 2026,
-    "mileageKm": 10,
-    "fuelType": "diesel",
-    "gearbox": null,
-    "engineCapacityCm3": 1995,
-    "enginePowerHp": 130,
-    "city": "Warszawa",
-    "region": "Mazowieckie",
-    "thumbnailUrl": "https://ireland.apollo.olxcdn.com/v1/files/q988hbmz1b173-OTOMOTOPL/image;s=640x480",
-    "sellerType": "business",
-    "sellerId": "17382644",
-    "sellerName": "STARTLEASE",
-    "sellerWebsite": "https://startlease.otomoto.pl",
-    "createdAt": "2026-11-05T08:56:20Z",
-    "shortDescription": "FORD Transit Van Trend 2.0 Ecoblue 130KM M6 FWD",
-    "categoryCode": "dostawcze",
-    "categoryName": "Dostawcze",
-    "breadcrumbs": [
-      "Dostawcze",
-      "Ford",
-      "Transit"
-    ],
-    "breadcrumbUrls": [
-      "https://www.otomoto.pl/dostawcze",
-      "https://www.otomoto.pl/dostawcze/ford",
-      "https://www.otomoto.pl/dostawcze/ford/Transit"
-    ],
-    "invoiceIssued": true,
-    "vatIncluded": true,
-    "promotionServices": [
-      "topads",
-      "ad_homepage",
-      "bump_up",
-      "export_olx"
-    ],
-    "sellerUuid": "e3c03cc2-5585-4bb0-9a76-422038744067",
-    "mainFeatures": [
-      "2026",
-      "10 km",
-      "1995 cm3",
-      "Diesel"
-    ],
-    "attributes": {
-      "make": {
-        "value": "ford",
-        "label": "Ford"
-      },
-      "fuel_type": {
-        "value": "diesel",
-        "label": "Diesel"
-      },
-      "mileage": {
-        "value": "10",
-        "label": "10 km"
-      },
-      "engine_capacity": {
-        "value": "1995",
-        "label": "1995 cm3"
-      },
-      "engine_power": {
-        "value": "130",
-        "label": "130 KM"
-      },
-      "model": {
-        "value": "Transit",
-        "label": "Transit"
-      },
-      "year": {
-        "value": "2026",
-        "label": "2026"
-      }
-    },
-    "scrapedAt": "2026-11-23T21:26:24Z",
-    "marketMedianPrice": 180687,
-    "priceVsMarketPct": -31.99,
-    "marketCohortCount": 27,
-    "marketOutlier": false,
-    "belowMarket": true,
-    "daysListed": 18,
-    "firstSeen": "2026-11-20T00:11:24Z",
-    "daysTracked": 3,
-    "previousPrice": 122877,
-    "priceChange": 0,
-    "priceChangePct": 0,
-    "observedPriceHistory": [
-      {
-        "date": "2026-11-20",
-        "price": 122877
-      },
-      {
-        "date": "2026-11-23",
-        "price": 122877
-      }
-    ],
-    "priceObservationsCount": 2
-  },
-  {
-    "id": "6151776630",
-    "url": "https://www.otomoto.pl/dostawcze/oferta/ford-transit-custom-ID6Ike7I.html",
-    "title": "Ford Transit Custom",
-    "priceAmount": 79700,
+    "id": "6151856294",
+    "url": "https://www.otomoto.pl/osobowe/oferta/mercedes-benz-glb-ID6IkyQC.html",
+    "title": "Mercedes-Benz GLB 250 4-Matic AMG Line 8G-DCT",
+    "priceAmount": 49800,
     "priceCurrency": "PLN",
     "priceIsGross": true,
-    "make": "Ford",
-    "makeSlug": "ford",
-    "model": "Transit Custom",
-    "modelSlug": "Transit Custom",
-    "version": null,
+    "make": "Mercedes-Benz",
+    "makeSlug": "mercedes-benz",
+    "model": "GLB",
+    "modelSlug": "glb",
+    "version": "250 4-Matic AMG Line 8G-DCT",
     "year": 2021,
-    "mileageKm": 67000,
-    "fuelType": "diesel",
-    "gearbox": null,
-    "engineCapacityCm3": 1995,
-    "enginePowerHp": 130,
-    "city": "Chotomów",
+    "mileageKm": 94288,
+    "fuelType": "petrol",
+    "gearbox": "automatic",
+    "engineCapacityCm3": 1991,
+    "enginePowerHp": 224,
+    "city": "Warszawa",
     "region": "Mazowieckie",
-    "thumbnailUrl": "https://ireland.apollo.olxcdn.com/v1/files/7sz03pol18f03-OTOMOTOPL/image;s=640x480",
+    "thumbnailUrl": "https://ireland.apollo.olxcdn.com/v1/files/pcxtstwwe3602-OTOMOTOPL/image;s=640x480",
     "sellerType": "business",
-    "sellerId": "14862509",
-    "sellerName": "AUTO FENOMEN Auta z pisemną Gwarancją",
-    "sellerWebsite": "https://AUTO-FENOMEN.otomoto.pl",
-    "createdAt": "2026-11-19T17:14:25Z",
-    "shortDescription": "2.0TDCI 130 KM, Klima, Salon PL, 67 ty skm, Bezwypadek, Long, 2xpdc",
-    "categoryCode": "dostawcze",
-    "categoryName": "Dostawcze",
+    "sellerId": "18331088",
+    "sellerName": "ARBID Logistics",
+    "sellerWebsite": "https://arbid.otomoto.pl",
+    "createdAt": "2026-11-24T15:34:20Z",
+    "shortDescription": "Mercedes-Benz GLB 250 4MATIC 2021",
+    "categoryCode": "osobowe",
+    "categoryName": "Osobowe",
     "breadcrumbs": [
-      "Dostawcze",
-      "Ford",
-      "Transit Custom"
+      "Osobowe",
+      "Mercedes-Benz",
+      "GLB"
     ],
     "breadcrumbUrls": [
-      "https://www.otomoto.pl/dostawcze",
-      "https://www.otomoto.pl/dostawcze/ford",
-      "https://www.otomoto.pl/dostawcze/ford/Transit Custom"
+      "https://www.otomoto.pl/osobowe",
+      "https://www.otomoto.pl/osobowe/mercedes-benz",
+      "https://www.otomoto.pl/osobowe/mercedes-benz/glb"
     ],
+    "verifiedCar": false,
     "promotionServices": [
       "topads",
-      "bump_up",
       "export_olx"
     ],
-    "sellerUuid": "76917786-bb51-41b7-807b-d502e15876c4",
+    "packages": [
+      "Ultra"
+    ],
+    "sellerServices": [
+      "financing",
+      "repair",
+      "fast-repair",
+      "tinsmith"
+    ],
+    "sellerUuid": "beb49f3c-6f3e-4578-9db7-837f472c442e",
     "mainFeatures": [
       "2021",
-      "67000 km",
-      "1995 cm3",
-      "Diesel"
+      "94288 km",
+      "1991 cm3",
+      "Benzyna"
     ],
     "attributes": {
       "make": {
-        "value": "ford",
-        "label": "Ford"
+        "value": "mercedes-benz",
+        "label": "Mercedes-Benz"
       },
       "fuel_type": {
-        "value": "diesel",
-        "label": "Diesel"
+        "value": "petrol",
+        "label": "Benzyna"
+      },
+      "gearbox": {
+        "value": "automatic",
+        "label": "Automatyczna"
       },
       "mileage": {
-        "value": "67000",
-        "label": "67000 km"
+        "value": "94288",
+        "label": "94288 km"
       },
       "engine_capacity": {
-        "value": "1995",
-        "label": "1995 cm3"
+        "value": "1991",
+        "label": "1991 cm3"
       },
       "engine_power": {
-        "value": "130",
-        "label": "130 KM"
+        "value": "224",
+        "label": "224 KM"
       },
       "model": {
-        "value": "Transit Custom",
-        "label": "Transit Custom"
+        "value": "glb",
+        "label": "GLB"
+      },
+      "version": {
+        "value": "ver-250-4--matic-amg-line-8g--dct",
+        "label": "250 4-Matic AMG Line 8G-DCT"
       },
       "year": {
         "value": "2021",
         "label": "2021"
       }
     },
-    "scrapedAt": "2026-11-23T21:26:24Z",
-    "marketMedianPrice": 88437,
-    "priceVsMarketPct": -9.88,
-    "marketCohortCount": 7,
-    "marketOutlier": false,
-    "belowMarket": true,
-    "daysListed": 4,
-    "firstSeen": "2026-11-20T00:11:24Z",
-    "daysTracked": 3,
-    "previousPrice": 79700,
-    "priceChange": 0,
-    "priceChangePct": 0,
-    "observedPriceHistory": [
-      {
-        "date": "2026-11-20",
-        "price": 79700
-      },
-      {
-        "date": "2026-11-20",
-        "price": 81900
-      },
-      {
-        "date": "2026-11-23",
-        "price": 79700
-      }
-    ],
-    "priceObservationsCount": 3
-  },
-  {
-    "id": "6151841371",
-    "url": "https://www.otomoto.pl/dostawcze/oferta/ford-transit-van-ID6IkuXW.html",
-    "title": "Ford Transit Van",
-    "priceAmount": 146985,
-    "priceCurrency": "PLN",
-    "priceIsGross": false,
-    "make": "Ford",
-    "makeSlug": "ford",
-    "model": "Transit Van",
-    "modelSlug": "Transit Van",
-    "version": null,
-    "year": 2026,
-    "mileageKm": 1,
-    "fuelType": "diesel",
-    "gearbox": null,
-    "engineCapacityCm3": 1995,
-    "enginePowerHp": 130,
-    "city": "Gliwice",
-    "region": "Śląskie",
-    "thumbnailUrl": "https://ireland.apollo.olxcdn.com/v1/files/3llexkx4xdff-OTOMOTOPL/image;s=640x480",
-    "sellerType": "business",
-    "sellerId": "10898334",
-    "sellerName": "FORD CITY CAR GLIWICE - FLOTA - POJAZDY DOSTAWCZE - UŻYTKOWE",
-    "sellerWebsite": "https://dostawczecitycar.otomoto.pl",
-    "createdAt": "2026-11-23T17:18:01Z",
-    "shortDescription": "Furgon Blaszak Van L3 H2 350 FWD Diesel 2.0 130 KM Trend 2026 SALON!",
-    "categoryCode": "dostawcze",
-    "categoryName": "Dostawcze",
-    "breadcrumbs": [
-      "Dostawcze",
-      "Ford",
-      "Transit Van"
-    ],
-    "breadcrumbUrls": [
-      "https://www.otomoto.pl/dostawcze",
-      "https://www.otomoto.pl/dostawcze/ford",
-      "https://www.otomoto.pl/dostawcze/ford/Transit Van"
-    ],
-    "invoiceIssued": true,
-    "vatIncluded": true,
-    "promotionServices": [
-      "topads",
-      "export_olx"
-    ],
-    "sellerUuid": "0d03024d-84d6-4f95-843f-be528c15cfa6",
-    "mainFeatures": [
-      "2026",
-      "1 km",
-      "1995 cm3",
-      "Diesel"
-    ],
-    "attributes": {
-      "make": {
-        "value": "ford",
-        "label": "Ford"
-      },
-      "fuel_type": {
-        "value": "diesel",
-        "label": "Diesel"
-      },
-      "mileage": {
-        "value": "1",
-        "label": "1 km"
-      },
-      "engine_capacity": {
-        "value": "1995",
-        "label": "1995 cm3"
-      },
-      "engine_power": {
-        "value": "130",
-        "label": "130 KM"
-      },
-      "model": {
-        "value": "Transit Van",
-        "label": "Transit Van"
-      },
-      "year": {
-        "value": "2026",
-        "label": "2026"
-      }
-    },
-    "scrapedAt": "2026-11-23T21:26:24Z",
+    "scrapedAt": "2026-11-24T23:36:03Z",
     "daysListed": 0,
-    "firstSeen": "2026-11-23T18:53:41Z",
+    "firstSeen": "2026-11-24T22:30:25Z",
     "daysTracked": 0,
-    "previousPrice": 146985,
+    "previousPrice": 49800,
     "priceChange": 0,
     "priceChangePct": 0
   },
   {
-    "id": "6150320539",
-    "url": "https://www.otomoto.pl/dostawcze/oferta/ford-transit-l3h2-130km-trend-ID6Ie7kn.html",
-    "title": "Ford Transit L3H2 130KM Trend",
-    "priceAmount": 124363,
+    "id": "6151859082",
+    "url": "https://www.otomoto.pl/osobowe/oferta/mercedes-benz-gla-ID6IkzzA.html",
+    "title": "Mercedes-Benz GLA 250 4-Matic AMG Line",
+    "priceAmount": 69900,
     "priceCurrency": "PLN",
-    "priceIsGross": false,
-    "make": "Ford",
-    "makeSlug": "ford",
-    "model": "Transit L3H2 130KM Trend",
-    "modelSlug": "Transit L3H2 130KM Trend",
-    "version": null,
-    "year": 2026,
-    "mileageKm": 1,
-    "fuelType": "diesel",
-    "gearbox": null,
-    "engineCapacityCm3": 1996,
-    "enginePowerHp": 130,
-    "city": "Dąbrowa Górnicza",
-    "region": "Śląskie",
-    "thumbnailUrl": "https://ireland.apollo.olxcdn.com/v1/files/jhiw632gksq61-OTOMOTOPL/image;s=640x480",
+    "priceIsGross": true,
+    "make": "Mercedes-Benz",
+    "makeSlug": "mercedes-benz",
+    "model": "GLA",
+    "modelSlug": "gla",
+    "version": "250 4-Matic AMG Line",
+    "year": 2021,
+    "mileageKm": 45699,
+    "fuelType": "petrol",
+    "gearbox": "automatic",
+    "engineCapacityCm3": 1991,
+    "enginePowerHp": 224,
+    "city": "Warszawa",
+    "region": "Mazowieckie",
+    "thumbnailUrl": "https://ireland.apollo.olxcdn.com/v1/files/e140e9pwg0c63-OTOMOTOPL/image;s=640x480",
     "sellerType": "business",
-    "sellerId": "12194285",
-    "sellerName": "Dostawcze AutoFinance.pl",
-    "sellerWebsite": "https://DostawczeAF.otomoto.pl",
-    "createdAt": "2026-11-01T15:07:15Z",
-    "shortDescription": "| 2.0 EcoBlue 130KM M6 TREND",
-    "categoryCode": "dostawcze",
-    "categoryName": "Dostawcze",
+    "sellerId": "86614",
+    "sellerName": "Carserwis",
+    "sellerWebsite": "https://carservis.otomoto.pl",
+    "createdAt": "2026-11-24T19:15:18Z",
+    "shortDescription": null,
+    "categoryCode": "osobowe",
+    "categoryName": "Osobowe",
     "breadcrumbs": [
-      "Dostawcze",
-      "Ford",
-      "Transit L3H2 130KM Trend"
+      "Osobowe",
+      "Mercedes-Benz",
+      "GLA"
     ],
     "breadcrumbUrls": [
-      "https://www.otomoto.pl/dostawcze",
-      "https://www.otomoto.pl/dostawcze/ford",
-      "https://www.otomoto.pl/dostawcze/ford/Transit L3H2 130KM Trend"
+      "https://www.otomoto.pl/osobowe",
+      "https://www.otomoto.pl/osobowe/mercedes-benz",
+      "https://www.otomoto.pl/osobowe/mercedes-benz/gla"
     ],
-    "invoiceIssued": true,
-    "vatIncluded": true,
+    "verifiedCar": false,
     "promotionServices": [
-      "export_olx",
       "topads",
-      "bump_up"
+      "export_olx"
     ],
-    "sellerUuid": "f1244b37-2d24-4571-97c0-89e990fe5982",
+    "sellerUuid": "5707b934-145a-4bc7-9356-23b313a81225",
     "mainFeatures": [
-      "2026",
-      "1 km",
-      "1996 cm3",
+      "2021",
+      "45699 km",
+      "1991 cm3",
+      "Benzyna"
+    ],
+    "attributes": {
+      "make": {
+        "value": "mercedes-benz",
+        "label": "Mercedes-Benz"
+      },
+      "fuel_type": {
+        "value": "petrol",
+        "label": "Benzyna"
+      },
+      "gearbox": {
+        "value": "automatic",
+        "label": "Automatyczna"
+      },
+      "mileage": {
+        "value": "45699",
+        "label": "45699 km"
+      },
+      "engine_capacity": {
+        "value": "1991",
+        "label": "1991 cm3"
+      },
+      "engine_power": {
+        "value": "224",
+        "label": "224 KM"
+      },
+      "model": {
+        "value": "gla",
+        "label": "GLA"
+      },
+      "version": {
+        "value": "ver-250-4--matic-amg-line",
+        "label": "250 4-Matic AMG Line"
+      },
+      "year": {
+        "value": "2021",
+        "label": "2021"
+      }
+    },
+    "scrapedAt": "2026-11-24T23:36:03Z",
+    "daysListed": 0,
+    "firstSeen": "2026-11-24T22:30:25Z",
+    "daysTracked": 0,
+    "previousPrice": 69900,
+    "priceChange": 0,
+    "priceChangePct": 0
+  },
+  {
+    "id": "6151355766",
+    "url": "https://www.otomoto.pl/osobowe/oferta/mercedes-benz-eqa-ID6IisDA.html",
+    "title": "Mercedes-Benz EQA 300 66.5kWh 4-Matic Progressive",
+    "priceAmount": 146000,
+    "priceCurrency": "PLN",
+    "priceIsGross": true,
+    "make": "Mercedes-Benz",
+    "makeSlug": "mercedes-benz",
+    "model": "EQA",
+    "modelSlug": "eqa",
+    "version": "300 66.5kWh 4-Matic Progressive",
+    "year": 2023,
+    "mileageKm": 24460,
+    "fuelType": "electric",
+    "gearbox": "automatic",
+    "engineCapacityCm3": null,
+    "enginePowerHp": 228,
+    "city": "Warszawa",
+    "region": "Mazowieckie",
+    "thumbnailUrl": "https://ireland.apollo.olxcdn.com/v1/files/k03guxgeb2dq2-OTOMOTOPL/image;s=640x480",
+    "sellerType": "business",
+    "sellerId": "15572813",
+    "sellerName": "Na zdjęciach każdy samochód wygląda dobrze. My sprawdzamy, jak jest naprawdę",
+    "sellerWebsite": "https://warszawaautazklasa.otomoto.pl",
+    "createdAt": "2026-11-24T22:11:50Z",
+    "shortDescription": null,
+    "categoryCode": "osobowe",
+    "categoryName": "Osobowe",
+    "breadcrumbs": [
+      "Osobowe",
+      "Mercedes-Benz",
+      "EQA"
+    ],
+    "breadcrumbUrls": [
+      "https://www.otomoto.pl/osobowe",
+      "https://www.otomoto.pl/osobowe/mercedes-benz",
+      "https://www.otomoto.pl/osobowe/mercedes-benz/eqa"
+    ],
+    "verifiedCar": false,
+    "priceEvaluation": "within_market",
+    "invoiceIssued": true,
+    "promotionServices": [
+      "topads",
+      "bump_up",
+      "export_olx"
+    ],
+    "packages": [
+      "Ultra"
+    ],
+    "sellerServices": [
+      "financing",
+      "repair",
+      "fast-repair",
+      "tinsmith"
+    ],
+    "sellerUuid": "c7fa0cae-ec7a-405b-9284-eb96f3588a64",
+    "mainFeatures": [
+      "2023",
+      "24460 km",
+      "Elektryczny"
+    ],
+    "attributes": {
+      "make": {
+        "value": "mercedes-benz",
+        "label": "Mercedes-Benz"
+      },
+      "fuel_type": {
+        "value": "electric",
+        "label": "Elektryczny"
+      },
+      "gearbox": {
+        "value": "automatic",
+        "label": "Automatyczna"
+      },
+      "country_origin": {
+        "value": "pl",
+        "label": "Polska"
+      },
+      "mileage": {
+        "value": "24460",
+        "label": "24460 km"
+      },
+      "engine_power": {
+        "value": "228",
+        "label": "228 KM"
+      },
+      "model": {
+        "value": "eqa",
+        "label": "EQA"
+      },
+      "version": {
+        "value": "ver-300-66-5kwh-4--matic-progressive",
+        "label": "300 66.5kWh 4-Matic Progressive"
+      },
+      "year": {
+        "value": "2023",
+        "label": "2023"
+      }
+    },
+    "countryOrigin": "pl",
+    "scrapedAt": "2026-11-24T23:36:03Z",
+    "marketMedianPrice": 146000,
+    "priceVsMarketPct": 0,
+    "marketCohortCount": 10,
+    "marketOutlier": false,
+    "belowMarket": false,
+    "daysListed": 0,
+    "firstSeen": "2026-11-24T22:30:25Z",
+    "daysTracked": 0,
+    "previousPrice": 146000,
+    "priceChange": 0,
+    "priceChangePct": 0
+  },
+  {
+    "id": "6151853269",
+    "url": "https://www.otomoto.pl/osobowe/oferta/mercedes-benz-cla-ID6Iky3P.html",
+    "title": "Mercedes-Benz CLA 45 AMG 4-Matic",
+    "priceAmount": 50500,
+    "priceCurrency": "PLN",
+    "priceIsGross": true,
+    "make": "Mercedes-Benz",
+    "makeSlug": "mercedes-benz",
+    "model": "CLA",
+    "modelSlug": "cla",
+    "version": "45 AMG 4-Matic",
+    "year": 2015,
+    "mileageKm": 110000,
+    "fuelType": "petrol",
+    "gearbox": "automatic",
+    "engineCapacityCm3": 1991,
+    "enginePowerHp": 360,
+    "city": "Wrocław",
+    "region": "Dolnośląskie",
+    "thumbnailUrl": "https://ireland.apollo.olxcdn.com/v1/files/pk6n5lsn1dth1-OTOMOTOPL/image;s=640x480",
+    "sellerType": "business",
+    "sellerId": "18256769",
+    "sellerName": "PAN AMERICA",
+    "sellerWebsite": "https://panamericawr.otomoto.pl",
+    "createdAt": "2026-11-24T13:43:40Z",
+    "shortDescription": "Mercedes-Benz CLA 45 AMG 2015",
+    "categoryCode": "osobowe",
+    "categoryName": "Osobowe",
+    "breadcrumbs": [
+      "Osobowe",
+      "Mercedes-Benz",
+      "CLA"
+    ],
+    "breadcrumbUrls": [
+      "https://www.otomoto.pl/osobowe",
+      "https://www.otomoto.pl/osobowe/mercedes-benz",
+      "https://www.otomoto.pl/osobowe/mercedes-benz/cla"
+    ],
+    "verifiedCar": false,
+    "promotionServices": [
+      "topads",
+      "export_olx"
+    ],
+    "packages": [
+      "Ultra"
+    ],
+    "sellerUuid": "9bf44b6f-9cb1-44a1-9e92-12e5cd2c8bbe",
+    "mainFeatures": [
+      "2015",
+      "110000 km",
+      "1991 cm3",
+      "Benzyna"
+    ],
+    "attributes": {
+      "make": {
+        "value": "mercedes-benz",
+        "label": "Mercedes-Benz"
+      },
+      "fuel_type": {
+        "value": "petrol",
+        "label": "Benzyna"
+      },
+      "gearbox": {
+        "value": "automatic",
+        "label": "Automatyczna"
+      },
+      "mileage": {
+        "value": "110000",
+        "label": "110000 km"
+      },
+      "engine_capacity": {
+        "value": "1991",
+        "label": "1991 cm3"
+      },
+      "engine_power": {
+        "value": "360",
+        "label": "360 KM"
+      },
+      "model": {
+        "value": "cla",
+        "label": "CLA"
+      },
+      "version": {
+        "value": "ver-45-amg-4--matic",
+        "label": "45 AMG 4-Matic"
+      },
+      "year": {
+        "value": "2015",
+        "label": "2015"
+      }
+    },
+    "scrapedAt": "2026-11-24T23:36:03Z",
+    "marketMedianPrice": 19350,
+    "priceVsMarketPct": 160.98,
+    "marketCohortCount": 5,
+    "marketOutlier": false,
+    "belowMarket": false,
+    "daysListed": 0,
+    "firstSeen": "2026-11-24T22:30:25Z",
+    "daysTracked": 0,
+    "previousPrice": 50500,
+    "priceChange": 0,
+    "priceChangePct": 0
+  },
+  {
+    "id": "6151851511",
+    "url": "https://www.otomoto.pl/osobowe/oferta/mercedes-benz-citan-ID6IkxBt.html",
+    "title": "Mercedes-Benz Citan Tourer EDITION BlueEFFICIENCY lang",
+    "priceAmount": 26900,
+    "priceCurrency": "PLN",
+    "priceIsGross": true,
+    "make": "Mercedes-Benz",
+    "makeSlug": "mercedes-benz",
+    "model": "Citan",
+    "modelSlug": "citan",
+    "version": "Tourer EDITION BlueEFFICIENCY lang",
+    "year": 2015,
+    "mileageKm": 209000,
+    "fuelType": "diesel",
+    "gearbox": "manual",
+    "engineCapacityCm3": 1461,
+    "enginePowerHp": 110,
+    "city": "Łask",
+    "region": "Łódzkie",
+    "thumbnailUrl": "https://ireland.apollo.olxcdn.com/v1/files/yf083nhy3qli2-OTOMOTOPL/image;s=640x480",
+    "sellerType": "business",
+    "sellerId": "11045277",
+    "sellerName": "ZYGAuto",
+    "sellerWebsite": "https://zygauto.otomoto.pl",
+    "createdAt": "2026-11-24T12:20:37Z",
+    "shortDescription": "Piękny MERCEDES CITAN 1.5 diesel 110KM przeb 209tyś 100%BEZWYPAD GWARA",
+    "categoryCode": "osobowe",
+    "categoryName": "Osobowe",
+    "breadcrumbs": [
+      "Osobowe",
+      "Mercedes-Benz",
+      "Citan"
+    ],
+    "breadcrumbUrls": [
+      "https://www.otomoto.pl/osobowe",
+      "https://www.otomoto.pl/osobowe/mercedes-benz",
+      "https://www.otomoto.pl/osobowe/mercedes-benz/citan"
+    ],
+    "verifiedCar": false,
+    "priceEvaluation": "below_market",
+    "promotionServices": [
+      "topads",
+      "ad_homepage",
+      "bump_up",
+      "export_olx"
+    ],
+    "sellerUuid": "85891318-c231-4ea2-b2a8-c73fb5b34f78",
+    "mainFeatures": [
+      "2015",
+      "209000 km",
+      "1461 cm3",
       "Diesel"
     ],
     "attributes": {
       "make": {
-        "value": "ford",
-        "label": "Ford"
+        "value": "mercedes-benz",
+        "label": "Mercedes-Benz"
       },
       "fuel_type": {
         "value": "diesel",
         "label": "Diesel"
       },
+      "gearbox": {
+        "value": "manual",
+        "label": "Manualna"
+      },
+      "country_origin": {
+        "value": "d",
+        "label": "Niemcy"
+      },
       "mileage": {
-        "value": "1",
-        "label": "1 km"
+        "value": "209000",
+        "label": "209000 km"
       },
       "engine_capacity": {
-        "value": "1996",
-        "label": "1996 cm3"
+        "value": "1461",
+        "label": "1461 cm3"
       },
       "engine_power": {
-        "value": "130",
-        "label": "130 KM"
+        "value": "110",
+        "label": "110 KM"
       },
       "model": {
-        "value": "Transit L3H2 130KM Trend",
-        "label": "Transit L3H2 130KM Trend"
+        "value": "citan",
+        "label": "Citan"
+      },
+      "version": {
+        "value": "ver-tourer-edition-blueefficiency-lang",
+        "label": "Tourer EDITION BlueEFFICIENCY lang"
       },
       "year": {
-        "value": "2026",
-        "label": "2026"
+        "value": "2015",
+        "label": "2015"
       }
     },
-    "scrapedAt": "2026-11-23T21:26:24Z",
-    "daysListed": 22,
-    "firstSeen": "2026-11-17T02:52:30Z",
-    "daysTracked": 6,
-    "previousPrice": 124363,
+    "countryOrigin": "de",
+    "scrapedAt": "2026-11-24T23:36:03Z",
+    "marketMedianPrice": 26900,
+    "priceVsMarketPct": 0,
+    "marketCohortCount": 7,
+    "marketOutlier": false,
+    "belowMarket": false,
+    "daysListed": 0,
+    "firstSeen": "2026-11-24T22:30:25Z",
+    "daysTracked": 0,
+    "previousPrice": 26900,
     "priceChange": 0,
-    "priceChangePct": 0,
-    "observedPriceHistory": [
-      {
-        "date": "2026-11-20",
-        "price": 124363
-      },
-      {
-        "date": "2026-11-23",
-        "price": 124363
-      }
-    ],
-    "priceObservationsCount": 2
+    "priceChangePct": 0
   }
 ]
