@@ -24,7 +24,6 @@
     "sellerId": "17382644",
     "sellerName": "STARTLEASE",
     "sellerWebsite": "https://startlease.otomoto.pl",
-    "cepikVerified": null,
     "createdAt": "2026-11-05T22:25:17Z",
     "shortDescription": "FORD Transit Van Trend 2.0 Ecoblue 130KM M6 FWD- metalik",
     "categoryCode": "dostawcze",
@@ -84,103 +83,11 @@
         "label": "2026"
       }
     },
-    "scrapedAt": "2026-11-23T00:29:04Z",
+    "scrapedAt": "2026-11-23T21:26:24Z",
     "daysListed": 17,
     "firstSeen": "2026-11-23T00:29:04Z",
-    "daysTracked": 0
-  },
-  {
-    "id": "6151724344",
-    "url": "https://www.otomoto.pl/dostawcze/oferta/ford-transit-custom-ID6Ik0vo.html",
-    "title": "Ford Transit Custom",
-    "priceAmount": 28900,
-    "priceCurrency": "PLN",
-    "priceIsGross": true,
-    "make": "Ford",
-    "makeSlug": "ford",
-    "model": "Transit Custom",
-    "modelSlug": "Transit Custom",
-    "version": null,
-    "year": 2016,
-    "mileageKm": 199800,
-    "fuelType": "diesel",
-    "gearbox": null,
-    "engineCapacityCm3": 2200,
-    "enginePowerHp": 125,
-    "city": "Barankowo",
-    "region": "Wielkopolskie",
-    "thumbnailUrl": "https://ireland.apollo.olxcdn.com/v1/files/kpanes6aleaj2-OTOMOTOPL/image;s=640x480",
-    "sellerType": "business",
-    "sellerId": "18553728",
-    "sellerName": "Auto T.B",
-    "sellerWebsite": "https://autotb.otomoto.pl",
-    "cepikVerified": null,
-    "createdAt": "2026-11-16T20:08:15Z",
-    "shortDescription": "L1H1*Webasto*Klima*Podgrzewane fotele* Gwarancja* Kredyt* Leasing*",
-    "categoryCode": "dostawcze",
-    "categoryName": "Dostawcze",
-    "breadcrumbs": [
-      "Dostawcze",
-      "Ford",
-      "Transit Custom"
-    ],
-    "breadcrumbUrls": [
-      "https://www.otomoto.pl/dostawcze",
-      "https://www.otomoto.pl/dostawcze/ford",
-      "https://www.otomoto.pl/dostawcze/ford/Transit Custom"
-    ],
-    "promotionServices": [
-      "topads",
-      "bump_up",
-      "export_olx"
-    ],
-    "sellerUuid": "51ea9fab-8e38-4ab9-8abf-6e41a42013b1",
-    "mainFeatures": [
-      "2016",
-      "199800 km",
-      "2200 cm3",
-      "Diesel"
-    ],
-    "attributes": {
-      "make": {
-        "value": "ford",
-        "label": "Ford"
-      },
-      "fuel_type": {
-        "value": "diesel",
-        "label": "Diesel"
-      },
-      "mileage": {
-        "value": "199800",
-        "label": "199800 km"
-      },
-      "engine_capacity": {
-        "value": "2200",
-        "label": "2200 cm3"
-      },
-      "engine_power": {
-        "value": "125",
-        "label": "125 KM"
-      },
-      "model": {
-        "value": "Transit Custom",
-        "label": "Transit Custom"
-      },
-      "year": {
-        "value": "2016",
-        "label": "2016"
-      }
-    },
-    "scrapedAt": "2026-11-23T00:29:04Z",
-    "marketMedianPrice": 44700,
-    "priceVsMarketPct": -35.35,
-    "marketCohortCount": 5,
-    "marketOutlier": false,
-    "belowMarket": true,
-    "daysListed": 6,
-    "firstSeen": "2026-11-17T02:52:30Z",
-    "daysTracked": 5,
-    "previousPrice": 28900,
+    "daysTracked": 0,
+    "previousPrice": 125337,
     "priceChange": 0,
     "priceChangePct": 0
   },
@@ -209,7 +116,6 @@
     "sellerId": "17382644",
     "sellerName": "STARTLEASE",
     "sellerWebsite": "https://startlease.otomoto.pl",
-    "cepikVerified": null,
     "createdAt": "2026-11-05T08:56:20Z",
     "shortDescription": "FORD Transit Van Trend 2.0 Ecoblue 130KM M6 FWD",
     "categoryCode": "dostawcze",
@@ -269,13 +175,13 @@
         "label": "2026"
       }
     },
-    "scrapedAt": "2026-11-23T00:29:04Z",
-    "marketMedianPrice": 188767.5,
-    "priceVsMarketPct": -34.91,
-    "marketCohortCount": 6,
+    "scrapedAt": "2026-11-23T21:26:24Z",
+    "marketMedianPrice": 180687,
+    "priceVsMarketPct": -31.99,
+    "marketCohortCount": 27,
     "marketOutlier": false,
     "belowMarket": true,
-    "daysListed": 17,
+    "daysListed": 18,
     "firstSeen": "2026-11-20T00:11:24Z",
     "daysTracked": 3,
     "previousPrice": 122877,
@@ -318,7 +224,6 @@
     "sellerId": "14862509",
     "sellerName": "AUTO FENOMEN Auta z pisemną Gwarancją",
     "sellerWebsite": "https://AUTO-FENOMEN.otomoto.pl",
-    "cepikVerified": null,
     "createdAt": "2026-11-19T17:14:25Z",
     "shortDescription": "2.0TDCI 130 KM, Klima, Salon PL, 67 ty skm, Bezwypadek, Long, 2xpdc",
     "categoryCode": "dostawcze",
@@ -375,13 +280,13 @@
         "label": "2021"
       }
     },
-    "scrapedAt": "2026-11-23T00:29:04Z",
-    "marketMedianPrice": 83886,
-    "priceVsMarketPct": -4.99,
+    "scrapedAt": "2026-11-23T21:26:24Z",
+    "marketMedianPrice": 88437,
+    "priceVsMarketPct": -9.88,
     "marketCohortCount": 7,
     "marketOutlier": false,
     "belowMarket": true,
-    "daysListed": 3,
+    "daysListed": 4,
     "firstSeen": "2026-11-20T00:11:24Z",
     "daysTracked": 3,
     "previousPrice": 79700,
@@ -404,50 +309,139 @@
     "priceObservationsCount": 3
   },
   {
-    "id": "6151519575",
-    "url": "https://www.otomoto.pl/dostawcze/oferta/ford-transit-custom-van-l2-136km-a8-trend-ID6Ij9fF.html",
-    "title": "Ford Transit Custom Van L2 136KM A8 Trend",
-    "priceAmount": 147487,
+    "id": "6151841371",
+    "url": "https://www.otomoto.pl/dostawcze/oferta/ford-transit-van-ID6IkuXW.html",
+    "title": "Ford Transit Van",
+    "priceAmount": 146985,
     "priceCurrency": "PLN",
     "priceIsGross": false,
     "make": "Ford",
     "makeSlug": "ford",
-    "model": "Transit Custom Van L2 136KM A8 Trend",
-    "modelSlug": "Transit Custom Van L2 136KM A8 Trend",
+    "model": "Transit Van",
+    "modelSlug": "Transit Van",
+    "version": null,
+    "year": 2026,
+    "mileageKm": 1,
+    "fuelType": "diesel",
+    "gearbox": null,
+    "engineCapacityCm3": 1995,
+    "enginePowerHp": 130,
+    "city": "Gliwice",
+    "region": "Śląskie",
+    "thumbnailUrl": "https://ireland.apollo.olxcdn.com/v1/files/3llexkx4xdff-OTOMOTOPL/image;s=640x480",
+    "sellerType": "business",
+    "sellerId": "10898334",
+    "sellerName": "FORD CITY CAR GLIWICE - FLOTA - POJAZDY DOSTAWCZE - UŻYTKOWE",
+    "sellerWebsite": "https://dostawczecitycar.otomoto.pl",
+    "createdAt": "2026-11-23T17:18:01Z",
+    "shortDescription": "Furgon Blaszak Van L3 H2 350 FWD Diesel 2.0 130 KM Trend 2026 SALON!",
+    "categoryCode": "dostawcze",
+    "categoryName": "Dostawcze",
+    "breadcrumbs": [
+      "Dostawcze",
+      "Ford",
+      "Transit Van"
+    ],
+    "breadcrumbUrls": [
+      "https://www.otomoto.pl/dostawcze",
+      "https://www.otomoto.pl/dostawcze/ford",
+      "https://www.otomoto.pl/dostawcze/ford/Transit Van"
+    ],
+    "invoiceIssued": true,
+    "vatIncluded": true,
+    "promotionServices": [
+      "topads",
+      "export_olx"
+    ],
+    "sellerUuid": "0d03024d-84d6-4f95-843f-be528c15cfa6",
+    "mainFeatures": [
+      "2026",
+      "1 km",
+      "1995 cm3",
+      "Diesel"
+    ],
+    "attributes": {
+      "make": {
+        "value": "ford",
+        "label": "Ford"
+      },
+      "fuel_type": {
+        "value": "diesel",
+        "label": "Diesel"
+      },
+      "mileage": {
+        "value": "1",
+        "label": "1 km"
+      },
+      "engine_capacity": {
+        "value": "1995",
+        "label": "1995 cm3"
+      },
+      "engine_power": {
+        "value": "130",
+        "label": "130 KM"
+      },
+      "model": {
+        "value": "Transit Van",
+        "label": "Transit Van"
+      },
+      "year": {
+        "value": "2026",
+        "label": "2026"
+      }
+    },
+    "scrapedAt": "2026-11-23T21:26:24Z",
+    "daysListed": 0,
+    "firstSeen": "2026-11-23T18:53:41Z",
+    "daysTracked": 0,
+    "previousPrice": 146985,
+    "priceChange": 0,
+    "priceChangePct": 0
+  },
+  {
+    "id": "6150320539",
+    "url": "https://www.otomoto.pl/dostawcze/oferta/ford-transit-l3h2-130km-trend-ID6Ie7kn.html",
+    "title": "Ford Transit L3H2 130KM Trend",
+    "priceAmount": 124363,
+    "priceCurrency": "PLN",
+    "priceIsGross": false,
+    "make": "Ford",
+    "makeSlug": "ford",
+    "model": "Transit L3H2 130KM Trend",
+    "modelSlug": "Transit L3H2 130KM Trend",
     "version": null,
     "year": 2026,
     "mileageKm": 1,
     "fuelType": "diesel",
     "gearbox": null,
     "engineCapacityCm3": 1996,
-    "enginePowerHp": 136,
+    "enginePowerHp": 130,
     "city": "Dąbrowa Górnicza",
     "region": "Śląskie",
-    "thumbnailUrl": "https://ireland.apollo.olxcdn.com/v1/files/hnef8cbi5vrw2-OTOMOTOPL/image;s=640x480",
+    "thumbnailUrl": "https://ireland.apollo.olxcdn.com/v1/files/jhiw632gksq61-OTOMOTOPL/image;s=640x480",
     "sellerType": "business",
     "sellerId": "12194285",
     "sellerName": "Dostawcze AutoFinance.pl",
     "sellerWebsite": "https://DostawczeAF.otomoto.pl",
-    "cepikVerified": null,
-    "createdAt": "2026-11-04T15:44:12Z",
-    "shortDescription": null,
+    "createdAt": "2026-11-01T15:07:15Z",
+    "shortDescription": "| 2.0 EcoBlue 130KM M6 TREND",
     "categoryCode": "dostawcze",
     "categoryName": "Dostawcze",
     "breadcrumbs": [
       "Dostawcze",
       "Ford",
-      "Transit Custom Van L2 136KM A8 Trend"
+      "Transit L3H2 130KM Trend"
     ],
     "breadcrumbUrls": [
       "https://www.otomoto.pl/dostawcze",
       "https://www.otomoto.pl/dostawcze/ford",
-      "https://www.otomoto.pl/dostawcze/ford/Transit Custom Van L2 136KM A8 Trend"
+      "https://www.otomoto.pl/dostawcze/ford/Transit L3H2 130KM Trend"
     ],
     "invoiceIssued": true,
     "vatIncluded": true,
     "promotionServices": [
-      "topads",
       "export_olx",
+      "topads",
       "bump_up"
     ],
     "sellerUuid": "f1244b37-2d24-4571-97c0-89e990fe5982",
@@ -475,33 +469,33 @@
         "label": "1996 cm3"
       },
       "engine_power": {
-        "value": "136",
-        "label": "136 KM"
+        "value": "130",
+        "label": "130 KM"
       },
       "model": {
-        "value": "Transit Custom Van L2 136KM A8 Trend",
-        "label": "Transit Custom Van L2 136KM A8 Trend"
+        "value": "Transit L3H2 130KM Trend",
+        "label": "Transit L3H2 130KM Trend"
       },
       "year": {
         "value": "2026",
         "label": "2026"
       }
     },
-    "scrapedAt": "2026-11-23T00:29:04Z",
-    "daysListed": 18,
+    "scrapedAt": "2026-11-23T21:26:24Z",
+    "daysListed": 22,
     "firstSeen": "2026-11-17T02:52:30Z",
-    "daysTracked": 5,
-    "previousPrice": 147487,
+    "daysTracked": 6,
+    "previousPrice": 124363,
     "priceChange": 0,
     "priceChangePct": 0,
     "observedPriceHistory": [
       {
         "date": "2026-11-20",
-        "price": 147487
+        "price": 124363
       },
       {
         "date": "2026-11-23",
-        "price": 147487
+        "price": 124363
       }
     ],
     "priceObservationsCount": 2

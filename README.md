@@ -37,7 +37,9 @@ The `belowMarket` flag marks a car whose price is under that median. Here is one
 
 Turn on `onlyBelowMarket` and the run returns only cars with a market median whose price is under it — the deals, not the full search. You pay only for the rows returned.
 
-Set `priceDroppedOnly` on a daily task and each run returns only cars that actually got cheaper. In a two-run sample, an offer first seen at 87,900 PLN came back the next day at 83,900 PLN with `previousPrice: 87900`, `priceChange: -4000`, `priceChangePct: -4.55` and `daysTracked: 1`. The first run carries `firstSeen` and `daysTracked: 0` but no prior price, so nothing is invented.
+Set `priceDroppedOnly` on a daily task and each run returns only cars that actually got cheaper. In a two-run sample, an offer first seen at 87,900 PLN came back the next day at 83,900 PLN with `previousPrice: 87900`, `priceChange: -4000`, `priceChangePct: -4.55` and `daysTracked: 1`. A car we have tracked in an earlier run is also checked against our earliest price for it, so one that never got cheaper is not sent as a false alert just because it is new to your account. The run status records how many cars were checked and how many had no price cut.
+
+For a feed of newly listed cars, set `newWithinDays` to the number of days you care about, for example 7. The run keeps only cars our shared price history first saw in that window, so it works on your very first run instead of waiting for the Actor to build your own history. Every returned row's `firstSeen` falls inside the window, cars we have no first-sighting date for are left out, and the run status says how many cars were checked and dropped.
 
 Business buyers need to know whether they can reclaim VAT. When Otomoto shows the badge, a row carries `invoiceIssued: true` for a seller who issues a VAT invoice (faktura VAT) and `vatIncluded: true` for a price that already includes VAT. Here is a real BMW from a search run with both badges:
 
@@ -65,12 +67,13 @@ Detail mode also returns `netPrice`, the VAT-exclusive figure Otomoto prints bes
 
 The field is left off where Otomoto publishes no net price, so a search card or an offer page without the figure does not gain an empty column.
 
-Detail mode also tells you who is selling. Each row carries the seller's public Otomoto badges, the year they joined the site and how many cars they currently have listed, so you can tell an established dealer from a one-off seller. A dealer's row also includes `sellerAddress`, the public street address on their Otomoto profile, so you can see where a rival's stock actually sits. Here is a dealer from a real run:
+Detail mode also tells you who is selling. Each row carries the seller's public Otomoto badges, the year they joined the site and how many cars they currently have listed, so you can tell an established dealer from a one-off seller. A dealer's row also includes `sellerAddress`, the public street address on their Otomoto profile, so you can see where a rival's stock actually sits. It also carries `sellerPostalCode`, the postcode Otomoto publishes on the same dealer profile, so you can group a rival's listings by area or match them to your own catchment. Here is a dealer from a real run:
 
 ```json
 {
   "sellerName": "INTERAUTO KRAKÓW KOCMYRZOWSKA",
   "sellerAddress": "KOCMYRZOWSKA 1A",
+  "sellerPostalCode": "31-831",
   "sellerBadges": ["Firma", "Bardzo sprawnie odpowiada", "Sprzedający na OTOMOTO od 2023"],
   "sellerSinceYear": 2023,
   "sellerActiveAdCount": 23
@@ -104,7 +107,51 @@ Every row also carries `sellerUuid`, Otomoto's stable identifier for the seller.
 }
 ```
 
+Detail mode also returns the dealer's Otomoto advertising package in `packages` — the subscription tier Otomoto shows on the offer page, a useful signal of how much a rival invests in their listings. That same dealer came back as:
+
+```json
+{
+  "sellerName": "INTERAUTO KRAKÓW KOCMYRZOWSKA",
+  "packages": ["Pro Plus"]
+}
+```
+
+The field is left off where Otomoto publishes no package, so a private sale or an offer without one does not gain an empty column.
+
+Detail mode also returns the dealer's published services in `sellerServices` — Otomoto's own codes for what the business offers, such as financing, repairs, insurance and towing. It tells you what a rival dealer can do for a buyer, and the field is left out for private sellers and dealers who publish no services. Here is the same dealer from a real offer:
+
+```json
+{
+  "sellerName": "INTERAUTO KRAKÓW KOCMYRZOWSKA",
+  "sellerServices": ["financing", "repair", "tinsmith", "car-wash", "towing", "rent", "itp", "insurance"]
+}
+```
+
+Detail mode also gives you the dealer's own logo image in `sellerLogoUrl`, the branding the leading Otomoto scrapers publish from their seller block. It lets you label a rival's stock with their business mark in your own catalogue. Only dealers who upload a logo get the field, so private sellers and dealers without one leave no empty column. Here is the INTERAUTO dealer from a real offer:
+
+```json
+{
+  "sellerName": "INTERAUTO KRAKÓW KOCMYRZOWSKA",
+  "sellerWebsite": "https://interauto.krakow.pl/oferty/",
+  "sellerLogoUrl": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InFtYjBoZ3d1dTZkeDEtT1RPTU9UT1BMIn0.1eJfMMjBfvbY4EmmH70UxNWS5-faj0OxK1qNXKoRfCc/image"
+}
+```
+
 Every row also carries the listing URL, Otomoto's own price rating (below, in or above market), the photos, the full description and the equipment list. When the seller publishes them, you also get the VIN and the CEPiK history: first registration, number of owners, and the accident-free and service-record flags.
+
+Detail mode also reports whether Otomoto's CEPiK vehicle-history check is verified. `verifiedCar: true` means the car has a verified history record — a useful trust signal when you compare a dealer's stock with a private sale. The Skoda Kamiq offer from this run came back as:
+
+```json
+{
+  "title": "Skoda Kamiq 1.0 TSI Selection",
+  "priceAmount": 87900,
+  "city": "Kraków",
+  "verifiedCar": true,
+  "firstRegistrationDate": "2025-07-15"
+}
+```
+
+Search cards carry the same flag where Otomoto publishes it, so you get the signal before opening the offer. The field is left off a car with no published verification flag, rather than filled with a guessed `false`.
 
 Set `noAccident` to `true` to keep only cars the seller marked as accident-free. In detail mode, cars Otomoto reports as accident-damaged are left out of the result. Here is the Skoda Kamiq from the offer page above, returned by an accident-free search:
 
@@ -265,7 +312,6 @@ Real rows from a recent run: [`sample.json`](sample.json) · [`sample.csv`](samp
   "sellerId": "17382644",
   "sellerName": "STARTLEASE",
   "sellerWebsite": "https://startlease.otomoto.pl",
-  "cepikVerified": null,
   "createdAt": "2026-11-05T22:25:17Z",
   "shortDescription": "FORD Transit Van Trend 2.0 Ecoblue 130KM M6 FWD- metalik",
   "categoryCode": "dostawcze",
@@ -325,10 +371,13 @@ Real rows from a recent run: [`sample.json`](sample.json) · [`sample.csv`](samp
       "label": "2026"
     }
   },
-  "scrapedAt": "2026-11-23T00:29:04Z",
+  "scrapedAt": "2026-11-23T21:26:24Z",
   "daysListed": 17,
   "firstSeen": "2026-11-23T00:29:04Z",
-  "daysTracked": 0
+  "daysTracked": 0,
+  "previousPrice": 125337,
+  "priceChange": 0,
+  "priceChangePct": 0
 }
 ```
 
