@@ -1,42 +1,42 @@
 [
   {
-    "id": "6151856294",
-    "url": "https://www.otomoto.pl/osobowe/oferta/mercedes-benz-glb-ID6IkyQC.html",
-    "title": "Mercedes-Benz GLB 250 4-Matic AMG Line 8G-DCT",
-    "priceAmount": 49800,
+    "id": "6151850686",
+    "url": "https://www.otomoto.pl/osobowe/oferta/bmw-seria-3-ID6Ikxoa.html",
+    "title": "BMW Seria 3 330i xDrive Edition Luxury Line Purity",
+    "priceAmount": 54990,
     "priceCurrency": "PLN",
     "priceIsGross": true,
-    "make": "Mercedes-Benz",
-    "makeSlug": "mercedes-benz",
-    "model": "GLB",
-    "modelSlug": "glb",
-    "version": "250 4-Matic AMG Line 8G-DCT",
-    "year": 2021,
-    "mileageKm": 94288,
+    "make": "BMW",
+    "makeSlug": "bmw",
+    "model": "Seria 3",
+    "modelSlug": "seria-3",
+    "version": "330i xDrive Edition Luxury Line Purity",
+    "year": 2019,
+    "mileageKm": 63400,
     "fuelType": "petrol",
     "gearbox": "automatic",
-    "engineCapacityCm3": 1991,
-    "enginePowerHp": 224,
+    "engineCapacityCm3": 1998,
+    "enginePowerHp": 252,
     "city": "Warszawa",
     "region": "Mazowieckie",
-    "thumbnailUrl": "https://ireland.apollo.olxcdn.com/v1/files/pcxtstwwe3602-OTOMOTOPL/image;s=640x480",
+    "thumbnailUrl": "https://ireland.apollo.olxcdn.com/v1/files/7cb9eni0kmmf-OTOMOTOPL/image;s=640x480",
     "sellerType": "business",
-    "sellerId": "18331088",
-    "sellerName": "ARBID Logistics",
-    "sellerWebsite": "https://arbid.otomoto.pl",
-    "createdAt": "2026-11-24T15:34:20Z",
-    "shortDescription": "Mercedes-Benz GLB 250 4MATIC 2021",
+    "sellerId": "18253685",
+    "sellerName": "Pan America",
+    "sellerWebsite": "https://panamerica.otomoto.pl",
+    "createdAt": "2026-11-24T11:40:20Z",
+    "shortDescription": "BMW 330i xDrive 2019 | 2.0 Turbo | 255 KM | Luxury | Skóra Cognac |",
     "categoryCode": "osobowe",
     "categoryName": "Osobowe",
     "breadcrumbs": [
       "Osobowe",
-      "Mercedes-Benz",
-      "GLB"
+      "BMW",
+      "Seria 3"
     ],
     "breadcrumbUrls": [
       "https://www.otomoto.pl/osobowe",
-      "https://www.otomoto.pl/osobowe/mercedes-benz",
-      "https://www.otomoto.pl/osobowe/mercedes-benz/glb"
+      "https://www.otomoto.pl/osobowe/bmw",
+      "https://www.otomoto.pl/osobowe/bmw/seria-3"
     ],
     "verifiedCar": false,
     "promotionServices": [
@@ -52,328 +52,156 @@
       "fast-repair",
       "tinsmith"
     ],
-    "sellerUuid": "beb49f3c-6f3e-4578-9db7-837f472c442e",
+    "sellerUuid": "a99f9b81-027b-415c-a321-85390571359c",
     "mainFeatures": [
-      "2021",
-      "94288 km",
-      "1991 cm3",
+      "2019",
+      "63400 km",
+      "1998 cm3",
       "Benzyna"
     ],
     "attributes": {
       "make": {
-        "value": "mercedes-benz",
-        "label": "Mercedes-Benz"
+        "value": "bmw",
+        "label": "BMW"
       },
       "fuel_type": {
         "value": "petrol",
         "label": "Benzyna"
-      },
-      "gearbox": {
-        "value": "automatic",
-        "label": "Automatyczna"
-      },
-      "mileage": {
-        "value": "94288",
-        "label": "94288 km"
-      },
-      "engine_capacity": {
-        "value": "1991",
-        "label": "1991 cm3"
-      },
-      "engine_power": {
-        "value": "224",
-        "label": "224 KM"
-      },
-      "model": {
-        "value": "glb",
-        "label": "GLB"
-      },
-      "version": {
-        "value": "ver-250-4--matic-amg-line-8g--dct",
-        "label": "250 4-Matic AMG Line 8G-DCT"
-      },
-      "year": {
-        "value": "2021",
-        "label": "2021"
-      }
-    },
-    "scrapedAt": "2026-11-24T23:36:03Z",
-    "daysListed": 0,
-    "firstSeen": "2026-11-24T22:30:25Z",
-    "daysTracked": 0,
-    "previousPrice": 49800,
-    "priceChange": 0,
-    "priceChangePct": 0
-  },
-  {
-    "id": "6151859082",
-    "url": "https://www.otomoto.pl/osobowe/oferta/mercedes-benz-gla-ID6IkzzA.html",
-    "title": "Mercedes-Benz GLA 250 4-Matic AMG Line",
-    "priceAmount": 69900,
-    "priceCurrency": "PLN",
-    "priceIsGross": true,
-    "make": "Mercedes-Benz",
-    "makeSlug": "mercedes-benz",
-    "model": "GLA",
-    "modelSlug": "gla",
-    "version": "250 4-Matic AMG Line",
-    "year": 2021,
-    "mileageKm": 45699,
-    "fuelType": "petrol",
-    "gearbox": "automatic",
-    "engineCapacityCm3": 1991,
-    "enginePowerHp": 224,
-    "city": "Warszawa",
-    "region": "Mazowieckie",
-    "thumbnailUrl": "https://ireland.apollo.olxcdn.com/v1/files/e140e9pwg0c63-OTOMOTOPL/image;s=640x480",
-    "sellerType": "business",
-    "sellerId": "86614",
-    "sellerName": "Carserwis",
-    "sellerWebsite": "https://carservis.otomoto.pl",
-    "createdAt": "2026-11-24T19:15:18Z",
-    "shortDescription": null,
-    "categoryCode": "osobowe",
-    "categoryName": "Osobowe",
-    "breadcrumbs": [
-      "Osobowe",
-      "Mercedes-Benz",
-      "GLA"
-    ],
-    "breadcrumbUrls": [
-      "https://www.otomoto.pl/osobowe",
-      "https://www.otomoto.pl/osobowe/mercedes-benz",
-      "https://www.otomoto.pl/osobowe/mercedes-benz/gla"
-    ],
-    "verifiedCar": false,
-    "promotionServices": [
-      "topads",
-      "export_olx"
-    ],
-    "sellerUuid": "5707b934-145a-4bc7-9356-23b313a81225",
-    "mainFeatures": [
-      "2021",
-      "45699 km",
-      "1991 cm3",
-      "Benzyna"
-    ],
-    "attributes": {
-      "make": {
-        "value": "mercedes-benz",
-        "label": "Mercedes-Benz"
-      },
-      "fuel_type": {
-        "value": "petrol",
-        "label": "Benzyna"
-      },
-      "gearbox": {
-        "value": "automatic",
-        "label": "Automatyczna"
-      },
-      "mileage": {
-        "value": "45699",
-        "label": "45699 km"
-      },
-      "engine_capacity": {
-        "value": "1991",
-        "label": "1991 cm3"
-      },
-      "engine_power": {
-        "value": "224",
-        "label": "224 KM"
-      },
-      "model": {
-        "value": "gla",
-        "label": "GLA"
-      },
-      "version": {
-        "value": "ver-250-4--matic-amg-line",
-        "label": "250 4-Matic AMG Line"
-      },
-      "year": {
-        "value": "2021",
-        "label": "2021"
-      }
-    },
-    "scrapedAt": "2026-11-24T23:36:03Z",
-    "daysListed": 0,
-    "firstSeen": "2026-11-24T22:30:25Z",
-    "daysTracked": 0,
-    "previousPrice": 69900,
-    "priceChange": 0,
-    "priceChangePct": 0
-  },
-  {
-    "id": "6151355766",
-    "url": "https://www.otomoto.pl/osobowe/oferta/mercedes-benz-eqa-ID6IisDA.html",
-    "title": "Mercedes-Benz EQA 300 66.5kWh 4-Matic Progressive",
-    "priceAmount": 146000,
-    "priceCurrency": "PLN",
-    "priceIsGross": true,
-    "make": "Mercedes-Benz",
-    "makeSlug": "mercedes-benz",
-    "model": "EQA",
-    "modelSlug": "eqa",
-    "version": "300 66.5kWh 4-Matic Progressive",
-    "year": 2023,
-    "mileageKm": 24460,
-    "fuelType": "electric",
-    "gearbox": "automatic",
-    "engineCapacityCm3": null,
-    "enginePowerHp": 228,
-    "city": "Warszawa",
-    "region": "Mazowieckie",
-    "thumbnailUrl": "https://ireland.apollo.olxcdn.com/v1/files/k03guxgeb2dq2-OTOMOTOPL/image;s=640x480",
-    "sellerType": "business",
-    "sellerId": "15572813",
-    "sellerName": "Na zdjęciach każdy samochód wygląda dobrze. My sprawdzamy, jak jest naprawdę",
-    "sellerWebsite": "https://warszawaautazklasa.otomoto.pl",
-    "createdAt": "2026-11-24T22:11:50Z",
-    "shortDescription": null,
-    "categoryCode": "osobowe",
-    "categoryName": "Osobowe",
-    "breadcrumbs": [
-      "Osobowe",
-      "Mercedes-Benz",
-      "EQA"
-    ],
-    "breadcrumbUrls": [
-      "https://www.otomoto.pl/osobowe",
-      "https://www.otomoto.pl/osobowe/mercedes-benz",
-      "https://www.otomoto.pl/osobowe/mercedes-benz/eqa"
-    ],
-    "verifiedCar": false,
-    "priceEvaluation": "within_market",
-    "invoiceIssued": true,
-    "promotionServices": [
-      "topads",
-      "bump_up",
-      "export_olx"
-    ],
-    "packages": [
-      "Ultra"
-    ],
-    "sellerServices": [
-      "financing",
-      "repair",
-      "fast-repair",
-      "tinsmith"
-    ],
-    "sellerUuid": "c7fa0cae-ec7a-405b-9284-eb96f3588a64",
-    "mainFeatures": [
-      "2023",
-      "24460 km",
-      "Elektryczny"
-    ],
-    "attributes": {
-      "make": {
-        "value": "mercedes-benz",
-        "label": "Mercedes-Benz"
-      },
-      "fuel_type": {
-        "value": "electric",
-        "label": "Elektryczny"
       },
       "gearbox": {
         "value": "automatic",
         "label": "Automatyczna"
       },
       "country_origin": {
-        "value": "pl",
-        "label": "Polska"
+        "value": "usa",
+        "label": "Stany Zjednoczone"
       },
       "mileage": {
-        "value": "24460",
-        "label": "24460 km"
+        "value": "63400",
+        "label": "63400 km"
+      },
+      "engine_capacity": {
+        "value": "1998",
+        "label": "1998 cm3"
       },
       "engine_power": {
-        "value": "228",
-        "label": "228 KM"
+        "value": "252",
+        "label": "252 KM"
       },
       "model": {
-        "value": "eqa",
-        "label": "EQA"
+        "value": "seria-3",
+        "label": "Seria 3"
       },
       "version": {
-        "value": "ver-300-66-5kwh-4--matic-progressive",
-        "label": "300 66.5kWh 4-Matic Progressive"
+        "value": "ver-330i-xdrive-edition-luxury-line-purity",
+        "label": "330i xDrive Edition Luxury Line Purity"
       },
       "year": {
-        "value": "2023",
-        "label": "2023"
+        "value": "2019",
+        "label": "2019"
       }
     },
-    "countryOrigin": "pl",
-    "scrapedAt": "2026-11-24T23:36:03Z",
-    "marketMedianPrice": 146000,
-    "priceVsMarketPct": 0,
-    "marketCohortCount": 10,
-    "marketOutlier": false,
+    "countryOrigin": "us",
+    "scrapedAt": "2026-11-25T20:57:07Z",
+    "marketMedianPrice": 93250,
+    "priceVsMarketPct": -41.03,
+    "marketCohortCount": 6,
+    "marketOutlier": true,
     "belowMarket": false,
-    "daysListed": 0,
-    "firstSeen": "2026-11-24T22:30:25Z",
+    "daysListed": 1,
+    "firstSeen": "2026-11-24T22:29:32Z",
     "daysTracked": 0,
-    "previousPrice": 146000,
+    "previousPrice": 54990,
     "priceChange": 0,
-    "priceChangePct": 0
+    "priceChangePct": 0,
+    "priceHistory7d": {
+      "asOf": "2026-11-25T20:57:07Z",
+      "points": [
+        {
+          "date": "2026-11-24",
+          "price": 54990
+        },
+        {
+          "date": "2026-11-25",
+          "price": 54990
+        }
+      ]
+    },
+    "observedPriceHistory": [
+      {
+        "date": "2026-11-24",
+        "price": 54990
+      },
+      {
+        "date": "2026-11-25",
+        "price": 54990
+      }
+    ],
+    "priceObservationsCount": 2
   },
   {
-    "id": "6151853269",
-    "url": "https://www.otomoto.pl/osobowe/oferta/mercedes-benz-cla-ID6Iky3P.html",
-    "title": "Mercedes-Benz CLA 45 AMG 4-Matic",
-    "priceAmount": 50500,
+    "id": "6151856442",
+    "url": "https://www.otomoto.pl/osobowe/oferta/bmw-seria-3-ID6IkyT0.html",
+    "title": "BMW Seria 3 330i xDrive Edition M Sport Shadow",
+    "priceAmount": 29900,
     "priceCurrency": "PLN",
     "priceIsGross": true,
-    "make": "Mercedes-Benz",
-    "makeSlug": "mercedes-benz",
-    "model": "CLA",
-    "modelSlug": "cla",
-    "version": "45 AMG 4-Matic",
-    "year": 2015,
-    "mileageKm": 110000,
+    "make": "BMW",
+    "makeSlug": "bmw",
+    "model": "Seria 3",
+    "modelSlug": "seria-3",
+    "version": "330i xDrive Edition M Sport Shadow",
+    "year": 2018,
+    "mileageKm": 76000,
     "fuelType": "petrol",
     "gearbox": "automatic",
-    "engineCapacityCm3": 1991,
-    "enginePowerHp": 360,
-    "city": "Wrocław",
-    "region": "Dolnośląskie",
-    "thumbnailUrl": "https://ireland.apollo.olxcdn.com/v1/files/pk6n5lsn1dth1-OTOMOTOPL/image;s=640x480",
+    "engineCapacityCm3": 1998,
+    "enginePowerHp": 252,
+    "city": "Warszawa",
+    "region": "Mazowieckie",
+    "thumbnailUrl": "https://ireland.apollo.olxcdn.com/v1/files/7c616zqaltmi1-OTOMOTOPL/image;s=640x480",
     "sellerType": "business",
-    "sellerId": "18256769",
-    "sellerName": "PAN AMERICA",
-    "sellerWebsite": "https://panamericawr.otomoto.pl",
-    "createdAt": "2026-11-24T13:43:40Z",
-    "shortDescription": "Mercedes-Benz CLA 45 AMG 2015",
+    "sellerId": "18253685",
+    "sellerName": "Pan America",
+    "sellerWebsite": "https://panamerica.otomoto.pl",
+    "createdAt": "2026-11-24T19:35:31Z",
+    "shortDescription": "BMW 330i xDrive F30 M Pakiet | 2018 | 2.0 Benzyna | 252 KM | Automat |",
     "categoryCode": "osobowe",
     "categoryName": "Osobowe",
     "breadcrumbs": [
       "Osobowe",
-      "Mercedes-Benz",
-      "CLA"
+      "BMW",
+      "Seria 3"
     ],
     "breadcrumbUrls": [
       "https://www.otomoto.pl/osobowe",
-      "https://www.otomoto.pl/osobowe/mercedes-benz",
-      "https://www.otomoto.pl/osobowe/mercedes-benz/cla"
+      "https://www.otomoto.pl/osobowe/bmw",
+      "https://www.otomoto.pl/osobowe/bmw/seria-3"
     ],
     "verifiedCar": false,
     "promotionServices": [
-      "topads",
-      "export_olx"
+      "topads"
     ],
     "packages": [
       "Ultra"
     ],
-    "sellerUuid": "9bf44b6f-9cb1-44a1-9e92-12e5cd2c8bbe",
+    "sellerServices": [
+      "financing",
+      "repair",
+      "fast-repair",
+      "tinsmith"
+    ],
+    "sellerUuid": "a99f9b81-027b-415c-a321-85390571359c",
     "mainFeatures": [
-      "2015",
-      "110000 km",
-      "1991 cm3",
+      "2018",
+      "76000 km",
+      "1998 cm3",
       "Benzyna"
     ],
     "attributes": {
       "make": {
-        "value": "mercedes-benz",
-        "label": "Mercedes-Benz"
+        "value": "bmw",
+        "label": "BMW"
       },
       "fuel_type": {
         "value": "petrol",
@@ -384,150 +212,403 @@
         "label": "Automatyczna"
       },
       "mileage": {
-        "value": "110000",
-        "label": "110000 km"
+        "value": "76000",
+        "label": "76000 km"
       },
       "engine_capacity": {
-        "value": "1991",
-        "label": "1991 cm3"
+        "value": "1998",
+        "label": "1998 cm3"
       },
       "engine_power": {
-        "value": "360",
-        "label": "360 KM"
+        "value": "252",
+        "label": "252 KM"
       },
       "model": {
-        "value": "cla",
-        "label": "CLA"
+        "value": "seria-3",
+        "label": "Seria 3"
       },
       "version": {
-        "value": "ver-45-amg-4--matic",
-        "label": "45 AMG 4-Matic"
+        "value": "ver-330i-xdrive-edition-m-sport-shadow",
+        "label": "330i xDrive Edition M Sport Shadow"
       },
       "year": {
-        "value": "2015",
-        "label": "2015"
+        "value": "2018",
+        "label": "2018"
       }
     },
-    "scrapedAt": "2026-11-24T23:36:03Z",
-    "marketMedianPrice": 19350,
-    "priceVsMarketPct": 160.98,
+    "scrapedAt": "2026-11-25T20:57:07Z",
+    "marketMedianPrice": 62900,
+    "priceVsMarketPct": -52.46,
     "marketCohortCount": 5,
-    "marketOutlier": false,
+    "marketOutlier": true,
     "belowMarket": false,
-    "daysListed": 0,
-    "firstSeen": "2026-11-24T22:30:25Z",
+    "daysListed": 1,
+    "firstSeen": "2026-11-24T22:29:32Z",
     "daysTracked": 0,
-    "previousPrice": 50500,
+    "previousPrice": 29900,
     "priceChange": 0,
-    "priceChangePct": 0
+    "priceChangePct": 0,
+    "priceHistory7d": {
+      "asOf": "2026-11-25T20:57:07Z",
+      "points": [
+        {
+          "date": "2026-11-24",
+          "price": 29900
+        },
+        {
+          "date": "2026-11-25",
+          "price": 29900
+        }
+      ]
+    },
+    "observedPriceHistory": [
+      {
+        "date": "2026-11-24",
+        "price": 29900
+      },
+      {
+        "date": "2026-11-25",
+        "price": 29900
+      }
+    ],
+    "priceObservationsCount": 2
   },
   {
-    "id": "6151851511",
-    "url": "https://www.otomoto.pl/osobowe/oferta/mercedes-benz-citan-ID6IkxBt.html",
-    "title": "Mercedes-Benz Citan Tourer EDITION BlueEFFICIENCY lang",
-    "priceAmount": 26900,
+    "id": "6150360420",
+    "url": "https://www.otomoto.pl/osobowe/oferta/bmw-seria-4-ID6IehHC.html",
+    "title": "BMW Seria 4 430i xDrive M Sport",
+    "priceAmount": 89500,
     "priceCurrency": "PLN",
     "priceIsGross": true,
-    "make": "Mercedes-Benz",
-    "makeSlug": "mercedes-benz",
-    "model": "Citan",
-    "modelSlug": "citan",
-    "version": "Tourer EDITION BlueEFFICIENCY lang",
-    "year": 2015,
-    "mileageKm": 209000,
-    "fuelType": "diesel",
-    "gearbox": "manual",
-    "engineCapacityCm3": 1461,
-    "enginePowerHp": 110,
-    "city": "Łask",
-    "region": "Łódzkie",
-    "thumbnailUrl": "https://ireland.apollo.olxcdn.com/v1/files/yf083nhy3qli2-OTOMOTOPL/image;s=640x480",
+    "make": "BMW",
+    "makeSlug": "bmw",
+    "model": "Seria 4",
+    "modelSlug": "seria-4",
+    "version": "430i xDrive M Sport",
+    "year": 2024,
+    "mileageKm": 41495,
+    "fuelType": "petrol",
+    "gearbox": "automatic",
+    "engineCapacityCm3": 1998,
+    "enginePowerHp": 258,
+    "city": "Warszawa",
+    "region": "Mazowieckie",
+    "thumbnailUrl": "https://ireland.apollo.olxcdn.com/v1/files/ri3ovqky6h1f1-OTOMOTOPL/image;s=640x480",
     "sellerType": "business",
-    "sellerId": "11045277",
-    "sellerName": "ZYGAuto",
-    "sellerWebsite": "https://zygauto.otomoto.pl",
-    "createdAt": "2026-11-24T12:20:37Z",
-    "shortDescription": "Piękny MERCEDES CITAN 1.5 diesel 110KM przeb 209tyś 100%BEZWYPAD GWARA",
+    "sellerId": "18253685",
+    "sellerName": "Pan America",
+    "sellerWebsite": "https://panamerica.otomoto.pl",
+    "createdAt": "2026-11-25T16:46:05Z",
+    "shortDescription": null,
     "categoryCode": "osobowe",
     "categoryName": "Osobowe",
     "breadcrumbs": [
       "Osobowe",
-      "Mercedes-Benz",
-      "Citan"
+      "BMW",
+      "Seria 4"
     ],
     "breadcrumbUrls": [
       "https://www.otomoto.pl/osobowe",
-      "https://www.otomoto.pl/osobowe/mercedes-benz",
-      "https://www.otomoto.pl/osobowe/mercedes-benz/citan"
+      "https://www.otomoto.pl/osobowe/bmw",
+      "https://www.otomoto.pl/osobowe/bmw/seria-4"
     ],
     "verifiedCar": false,
-    "priceEvaluation": "below_market",
     "promotionServices": [
       "topads",
-      "ad_homepage",
       "bump_up",
       "export_olx"
     ],
-    "sellerUuid": "85891318-c231-4ea2-b2a8-c73fb5b34f78",
+    "packages": [
+      "Ultra"
+    ],
+    "sellerServices": [
+      "financing",
+      "repair",
+      "fast-repair",
+      "tinsmith"
+    ],
+    "sellerUuid": "a99f9b81-027b-415c-a321-85390571359c",
     "mainFeatures": [
-      "2015",
-      "209000 km",
-      "1461 cm3",
-      "Diesel"
+      "2024",
+      "41495 km",
+      "1998 cm3",
+      "Benzyna"
     ],
     "attributes": {
       "make": {
-        "value": "mercedes-benz",
-        "label": "Mercedes-Benz"
+        "value": "bmw",
+        "label": "BMW"
       },
       "fuel_type": {
-        "value": "diesel",
-        "label": "Diesel"
+        "value": "petrol",
+        "label": "Benzyna"
       },
       "gearbox": {
-        "value": "manual",
-        "label": "Manualna"
+        "value": "automatic",
+        "label": "Automatyczna"
       },
       "country_origin": {
-        "value": "d",
-        "label": "Niemcy"
+        "value": "kr",
+        "label": "Korea"
       },
       "mileage": {
-        "value": "209000",
-        "label": "209000 km"
+        "value": "41495",
+        "label": "41495 km"
       },
       "engine_capacity": {
-        "value": "1461",
-        "label": "1461 cm3"
+        "value": "1998",
+        "label": "1998 cm3"
       },
       "engine_power": {
-        "value": "110",
-        "label": "110 KM"
+        "value": "258",
+        "label": "258 KM"
       },
       "model": {
-        "value": "citan",
-        "label": "Citan"
+        "value": "seria-4",
+        "label": "Seria 4"
       },
       "version": {
-        "value": "ver-tourer-edition-blueefficiency-lang",
-        "label": "Tourer EDITION BlueEFFICIENCY lang"
+        "value": "ver-430i-xdrive-m-sport",
+        "label": "430i xDrive M Sport"
       },
       "year": {
-        "value": "2015",
-        "label": "2015"
+        "value": "2024",
+        "label": "2024"
       }
     },
-    "countryOrigin": "de",
-    "scrapedAt": "2026-11-24T23:36:03Z",
-    "marketMedianPrice": 26900,
-    "priceVsMarketPct": 0,
-    "marketCohortCount": 7,
-    "marketOutlier": false,
+    "countryOrigin": "kr",
+    "scrapedAt": "2026-11-25T20:57:07Z",
+    "marketMedianPrice": 184900,
+    "priceVsMarketPct": -51.6,
+    "marketCohortCount": 5,
+    "marketOutlier": true,
     "belowMarket": false,
     "daysListed": 0,
-    "firstSeen": "2026-11-24T22:30:25Z",
+    "firstSeen": "2026-11-25T19:59:05Z",
     "daysTracked": 0,
-    "previousPrice": 26900,
+    "previousPrice": 89500,
+    "priceChange": 0,
+    "priceChangePct": 0
+  },
+  {
+    "id": "6151866508",
+    "url": "https://www.otomoto.pl/osobowe/oferta/bmw-seria-5-ID6IkBwm.html",
+    "title": "BMW Seria 5 530i xDrive M Sport Edition",
+    "priceAmount": 56700,
+    "priceCurrency": "PLN",
+    "priceIsGross": true,
+    "make": "BMW",
+    "makeSlug": "bmw",
+    "model": "Seria 5",
+    "modelSlug": "seria-5",
+    "version": "530i xDrive M Sport Edition",
+    "year": 2019,
+    "mileageKm": 114200,
+    "fuelType": "petrol",
+    "gearbox": "automatic",
+    "engineCapacityCm3": 1998,
+    "enginePowerHp": 252,
+    "city": "Warszawa",
+    "region": "Mazowieckie",
+    "thumbnailUrl": "https://ireland.apollo.olxcdn.com/v1/files/1xg1g18smym31-OTOMOTOPL/image;s=640x480",
+    "sellerType": "business",
+    "sellerId": "18253685",
+    "sellerName": "Pan America",
+    "sellerWebsite": "https://panamerica.otomoto.pl",
+    "createdAt": "2026-11-25T13:42:20Z",
+    "shortDescription": null,
+    "categoryCode": "osobowe",
+    "categoryName": "Osobowe",
+    "breadcrumbs": [
+      "Osobowe",
+      "BMW",
+      "Seria 5"
+    ],
+    "breadcrumbUrls": [
+      "https://www.otomoto.pl/osobowe",
+      "https://www.otomoto.pl/osobowe/bmw",
+      "https://www.otomoto.pl/osobowe/bmw/seria-5"
+    ],
+    "verifiedCar": false,
+    "promotionServices": [
+      "topads"
+    ],
+    "packages": [
+      "Ultra"
+    ],
+    "sellerServices": [
+      "financing",
+      "repair",
+      "fast-repair",
+      "tinsmith"
+    ],
+    "sellerUuid": "a99f9b81-027b-415c-a321-85390571359c",
+    "mainFeatures": [
+      "2019",
+      "114200 km",
+      "1998 cm3",
+      "Benzyna"
+    ],
+    "attributes": {
+      "make": {
+        "value": "bmw",
+        "label": "BMW"
+      },
+      "fuel_type": {
+        "value": "petrol",
+        "label": "Benzyna"
+      },
+      "gearbox": {
+        "value": "automatic",
+        "label": "Automatyczna"
+      },
+      "mileage": {
+        "value": "114200",
+        "label": "114200 km"
+      },
+      "engine_capacity": {
+        "value": "1998",
+        "label": "1998 cm3"
+      },
+      "engine_power": {
+        "value": "252",
+        "label": "252 KM"
+      },
+      "model": {
+        "value": "seria-5",
+        "label": "Seria 5"
+      },
+      "version": {
+        "value": "ver-530i-xdrive-m-sport-edition",
+        "label": "530i xDrive M Sport Edition"
+      },
+      "year": {
+        "value": "2019",
+        "label": "2019"
+      }
+    },
+    "scrapedAt": "2026-11-25T20:57:07Z",
+    "marketMedianPrice": 95000,
+    "priceVsMarketPct": -40.32,
+    "marketCohortCount": 5,
+    "marketOutlier": true,
+    "belowMarket": false,
+    "daysListed": 0,
+    "firstSeen": "2026-11-25T19:59:05Z",
+    "daysTracked": 0,
+    "previousPrice": 56700,
+    "priceChange": 0,
+    "priceChangePct": 0
+  },
+  {
+    "id": "6151770053",
+    "url": "https://www.otomoto.pl/osobowe/oferta/bmw-seria-7-ID6IkcpD.html",
+    "title": "BMW Seria 7",
+    "priceAmount": 150000,
+    "priceCurrency": "PLN",
+    "priceIsGross": true,
+    "make": "BMW",
+    "makeSlug": "bmw",
+    "model": "Seria 7",
+    "modelSlug": "seria-7",
+    "version": null,
+    "year": 2024,
+    "mileageKm": 39234,
+    "fuelType": "petrol",
+    "gearbox": "automatic",
+    "engineCapacityCm3": 2998,
+    "enginePowerHp": 14,
+    "city": "Warszawa",
+    "region": "Mazowieckie",
+    "thumbnailUrl": "https://ireland.apollo.olxcdn.com/v1/files/k7v7ot2flzan1-OTOMOTOPL/image;s=640x480",
+    "sellerType": "business",
+    "sellerId": "16260395",
+    "sellerName": "WINCARS",
+    "sellerWebsite": "https://WINCARS.otomoto.pl",
+    "createdAt": "2026-11-19T12:04:15Z",
+    "shortDescription": "Siódemka, pełna opcja, unikat, piękne skóry.",
+    "categoryCode": "osobowe",
+    "categoryName": "Osobowe",
+    "breadcrumbs": [
+      "Osobowe",
+      "BMW",
+      "Seria 7"
+    ],
+    "breadcrumbUrls": [
+      "https://www.otomoto.pl/osobowe",
+      "https://www.otomoto.pl/osobowe/bmw",
+      "https://www.otomoto.pl/osobowe/bmw/seria-7"
+    ],
+    "verifiedCar": false,
+    "promotionServices": [
+      "topads",
+      "export_olx",
+      "bump_up"
+    ],
+    "packages": [
+      "Ultra"
+    ],
+    "sellerServices": [
+      "financing",
+      "repair",
+      "fast-repair",
+      "tinsmith"
+    ],
+    "sellerUuid": "263ae8ec-d546-4669-bb57-83df06260e7b",
+    "mainFeatures": [
+      "2024",
+      "39234 km",
+      "2998 cm3",
+      "Benzyna"
+    ],
+    "attributes": {
+      "make": {
+        "value": "bmw",
+        "label": "BMW"
+      },
+      "fuel_type": {
+        "value": "petrol",
+        "label": "Benzyna"
+      },
+      "gearbox": {
+        "value": "automatic",
+        "label": "Automatyczna"
+      },
+      "country_origin": {
+        "value": "cdn",
+        "label": "Kanada"
+      },
+      "mileage": {
+        "value": "39234",
+        "label": "39234 km"
+      },
+      "engine_capacity": {
+        "value": "2998",
+        "label": "2998 cm3"
+      },
+      "engine_power": {
+        "value": "14",
+        "label": "14 KM"
+      },
+      "model": {
+        "value": "seria-7",
+        "label": "Seria 7"
+      },
+      "year": {
+        "value": "2024",
+        "label": "2024"
+      }
+    },
+    "scrapedAt": "2026-11-25T20:57:07Z",
+    "marketMedianPrice": 417450,
+    "priceVsMarketPct": -64.07,
+    "marketCohortCount": 8,
+    "marketOutlier": true,
+    "belowMarket": false,
+    "daysListed": 6,
+    "firstSeen": "2026-11-25T12:29:38Z",
+    "daysTracked": 0,
+    "previousPrice": 150000,
     "priceChange": 0,
     "priceChangePct": 0
   }

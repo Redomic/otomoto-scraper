@@ -315,43 +315,43 @@ Real rows from a recent run: [`sample.json`](sample.json) · [`sample.csv`](samp
 
 ```json
 {
-  "id": "6151856294",
-  "url": "https://www.otomoto.pl/osobowe/oferta/mercedes-benz-glb-ID6IkyQC.html",
-  "title": "Mercedes-Benz GLB 250 4-Matic AMG Line 8G-DCT",
-  "priceAmount": 49800,
+  "id": "6151850686",
+  "url": "https://www.otomoto.pl/osobowe/oferta/bmw-seria-3-ID6Ikxoa.html",
+  "title": "BMW Seria 3 330i xDrive Edition Luxury Line Purity",
+  "priceAmount": 54990,
   "priceCurrency": "PLN",
   "priceIsGross": true,
-  "make": "Mercedes-Benz",
-  "makeSlug": "mercedes-benz",
-  "model": "GLB",
-  "modelSlug": "glb",
-  "version": "250 4-Matic AMG Line 8G-DCT",
-  "year": 2021,
-  "mileageKm": 94288,
+  "make": "BMW",
+  "makeSlug": "bmw",
+  "model": "Seria 3",
+  "modelSlug": "seria-3",
+  "version": "330i xDrive Edition Luxury Line Purity",
+  "year": 2019,
+  "mileageKm": 63400,
   "fuelType": "petrol",
   "gearbox": "automatic",
-  "engineCapacityCm3": 1991,
-  "enginePowerHp": 224,
+  "engineCapacityCm3": 1998,
+  "enginePowerHp": 252,
   "city": "Warszawa",
   "region": "Mazowieckie",
-  "thumbnailUrl": "https://ireland.apollo.olxcdn.com/v1/files/pcxtstwwe3602-OTOMOTOPL/image;s=640x480",
+  "thumbnailUrl": "https://ireland.apollo.olxcdn.com/v1/files/7cb9eni0kmmf-OTOMOTOPL/image;s=640x480",
   "sellerType": "business",
-  "sellerId": "18331088",
-  "sellerName": "ARBID Logistics",
-  "sellerWebsite": "https://arbid.otomoto.pl",
-  "createdAt": "2026-11-24T15:34:20Z",
-  "shortDescription": "Mercedes-Benz GLB 250 4MATIC 2021",
+  "sellerId": "18253685",
+  "sellerName": "Pan America",
+  "sellerWebsite": "https://panamerica.otomoto.pl",
+  "createdAt": "2026-11-24T11:40:20Z",
+  "shortDescription": "BMW 330i xDrive 2019 | 2.0 Turbo | 255 KM | Luxury | Skóra Cognac |",
   "categoryCode": "osobowe",
   "categoryName": "Osobowe",
   "breadcrumbs": [
     "Osobowe",
-    "Mercedes-Benz",
-    "GLB"
+    "BMW",
+    "Seria 3"
   ],
   "breadcrumbUrls": [
     "https://www.otomoto.pl/osobowe",
-    "https://www.otomoto.pl/osobowe/mercedes-benz",
-    "https://www.otomoto.pl/osobowe/mercedes-benz/glb"
+    "https://www.otomoto.pl/osobowe/bmw",
+    "https://www.otomoto.pl/osobowe/bmw/seria-3"
   ],
   "verifiedCar": false,
   "promotionServices": [
@@ -367,17 +367,17 @@ Real rows from a recent run: [`sample.json`](sample.json) · [`sample.csv`](samp
     "fast-repair",
     "tinsmith"
   ],
-  "sellerUuid": "beb49f3c-6f3e-4578-9db7-837f472c442e",
+  "sellerUuid": "a99f9b81-027b-415c-a321-85390571359c",
   "mainFeatures": [
-    "2021",
-    "94288 km",
-    "1991 cm3",
+    "2019",
+    "63400 km",
+    "1998 cm3",
     "Benzyna"
   ],
   "attributes": {
     "make": {
-      "value": "mercedes-benz",
-      "label": "Mercedes-Benz"
+      "value": "bmw",
+      "label": "BMW"
     },
     "fuel_type": {
       "value": "petrol",
@@ -387,38 +387,72 @@ Real rows from a recent run: [`sample.json`](sample.json) · [`sample.csv`](samp
       "value": "automatic",
       "label": "Automatyczna"
     },
+    "country_origin": {
+      "value": "usa",
+      "label": "Stany Zjednoczone"
+    },
     "mileage": {
-      "value": "94288",
-      "label": "94288 km"
+      "value": "63400",
+      "label": "63400 km"
     },
     "engine_capacity": {
-      "value": "1991",
-      "label": "1991 cm3"
+      "value": "1998",
+      "label": "1998 cm3"
     },
     "engine_power": {
-      "value": "224",
-      "label": "224 KM"
+      "value": "252",
+      "label": "252 KM"
     },
     "model": {
-      "value": "glb",
-      "label": "GLB"
+      "value": "seria-3",
+      "label": "Seria 3"
     },
     "version": {
-      "value": "ver-250-4--matic-amg-line-8g--dct",
-      "label": "250 4-Matic AMG Line 8G-DCT"
+      "value": "ver-330i-xdrive-edition-luxury-line-purity",
+      "label": "330i xDrive Edition Luxury Line Purity"
     },
     "year": {
-      "value": "2021",
-      "label": "2021"
+      "value": "2019",
+      "label": "2019"
     }
   },
-  "scrapedAt": "2026-11-24T23:36:03Z",
-  "daysListed": 0,
-  "firstSeen": "2026-11-24T22:30:25Z",
+  "countryOrigin": "us",
+  "scrapedAt": "2026-11-25T20:57:07Z",
+  "marketMedianPrice": 93250,
+  "priceVsMarketPct": -41.03,
+  "marketCohortCount": 6,
+  "marketOutlier": true,
+  "belowMarket": false,
+  "daysListed": 1,
+  "firstSeen": "2026-11-24T22:29:32Z",
   "daysTracked": 0,
-  "previousPrice": 49800,
+  "previousPrice": 54990,
   "priceChange": 0,
-  "priceChangePct": 0
+  "priceChangePct": 0,
+  "priceHistory7d": {
+    "asOf": "2026-11-25T20:57:07Z",
+    "points": [
+      {
+        "date": "2026-11-24",
+        "price": 54990
+      },
+      {
+        "date": "2026-11-25",
+        "price": 54990
+      }
+    ]
+  },
+  "observedPriceHistory": [
+    {
+      "date": "2026-11-24",
+      "price": 54990
+    },
+    {
+      "date": "2026-11-25",
+      "price": 54990
+    }
+  ],
+  "priceObservationsCount": 2
 }
 ```
 
