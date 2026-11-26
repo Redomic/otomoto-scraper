@@ -25,6 +25,7 @@ The `belowMarket` flag marks a car whose price is under that median. Here is one
   "title": "BMW X1",
   "categoryCode": "osobowe",
   "categoryName": "Osobowe",
+  "categoryId": 29,
   "priceAmount": 76000,
   "year": 2021,
   "mileageKm": 89000,
@@ -137,6 +138,27 @@ Detail mode also gives you the dealer's own logo image in `sellerLogoUrl`, the b
 }
 ```
 
+For sourcing comps, detail mode gives each car a `spatialHash` — a short area code taken from the seller's map pin, so you can group nearby stock without geocoding it yourself. It also gives `firstSeenAt`, the day our own history first saw that exact listing, and `daysToFirstList`, the whole days from that first sighting to the run; both are observations from our data, not a claim about when the seller published the ad, and they stay off for a car we have no record of. Here is a Kraków offer from a real detail run:
+
+```json
+{
+  "title": "Skoda Kamiq 1.0 TSI Selection",
+  "city": "Kraków",
+  "spatialHash": "u2yhv"
+}
+```
+
+And a BMW from our saved daily history on the run whose first-sighting day we could confirm:
+
+```json
+{
+  "id": "6151797127",
+  "title": "BMW Seria 3",
+  "firstSeenAt": "2026-11-20T20:02:23Z",
+  "daysToFirstList": 4
+}
+```
+
 Every row also carries the listing URL, Otomoto's own price rating (below, in or above market), the photos, the full description and the equipment list. When the seller publishes them, you also get the VIN and the CEPiK history: first registration, number of owners, and the accident-free and service-record flags.
 
 Detail mode also reports whether Otomoto's CEPiK vehicle-history check is verified. `verifiedCar: true` means the car has a verified history record — a useful trust signal when you compare a dealer's stock with a private sale. The Skoda Kamiq offer from this run came back as:
@@ -168,6 +190,8 @@ Set `noAccident` to `true` to keep only cars the seller marked as accident-free.
 ```
 
 Every row names the vehicle section it belongs to in `categoryCode` (`osobowe`, `dostawcze`, `ciezarowe` and so on) and `categoryName` (`Osobowe`, `Dostawcze`, `Ciężarowe`). The value comes from Otomoto's own listing address or the category published on the offer page, so a run that mixes pasted searches from several sections stays easy to sort and filter.
+
+Each row also carries Otomoto's numeric `categoryId` (`29` for `osobowe`), the section id the leading Otomoto scrapers publish as `category.id`. It lets a catalogue key cars to Otomoto's own section instead of translating a Polish label; a dealer inventory ad that publishes no category id leaves the field out.
 
 Each row also carries the same hierarchy a buyer sees on the page: `breadcrumbs` lists the section, make and model in order, and `breadcrumbUrls` gives the matching Otomoto category, make and model addresses. It is built from the section and the make/model Otomoto publishes on the listing, so cars from different searches file cleanly into your own catalogue. Here is the Skoda Kamiq offer from above:
 
@@ -315,43 +339,44 @@ Real rows from a recent run: [`sample.json`](sample.json) · [`sample.csv`](samp
 
 ```json
 {
-  "id": "6151850686",
-  "url": "https://www.otomoto.pl/osobowe/oferta/bmw-seria-3-ID6Ikxoa.html",
-  "title": "BMW Seria 3 330i xDrive Edition Luxury Line Purity",
-  "priceAmount": 54990,
+  "id": "6151889103",
+  "url": "https://www.otomoto.pl/osobowe/oferta/audi-a4-avant-ID6IkHnN.html",
+  "title": "Audi A4 Avant 40 TDI mHEV Quattro S Line S tronic",
+  "priceAmount": 59900,
   "priceCurrency": "PLN",
   "priceIsGross": true,
-  "make": "BMW",
-  "makeSlug": "bmw",
-  "model": "Seria 3",
-  "modelSlug": "seria-3",
-  "version": "330i xDrive Edition Luxury Line Purity",
-  "year": 2019,
-  "mileageKm": 63400,
-  "fuelType": "petrol",
+  "make": "Audi",
+  "makeSlug": "audi",
+  "model": "A4 Avant",
+  "modelSlug": "a4-avant",
+  "version": "40 TDI mHEV Quattro S Line S tronic",
+  "year": 2022,
+  "mileageKm": 130818,
+  "fuelType": "diesel",
   "gearbox": "automatic",
-  "engineCapacityCm3": 1998,
-  "enginePowerHp": 252,
+  "engineCapacityCm3": 1968,
+  "enginePowerHp": 204,
   "city": "Warszawa",
   "region": "Mazowieckie",
-  "thumbnailUrl": "https://ireland.apollo.olxcdn.com/v1/files/7cb9eni0kmmf-OTOMOTOPL/image;s=640x480",
+  "thumbnailUrl": "https://ireland.apollo.olxcdn.com/v1/files/psqmy18sxbc01-OTOMOTOPL/image;s=640x480",
   "sellerType": "business",
-  "sellerId": "18253685",
-  "sellerName": "Pan America",
-  "sellerWebsite": "https://panamerica.otomoto.pl",
-  "createdAt": "2026-11-24T11:40:20Z",
-  "shortDescription": "BMW 330i xDrive 2019 | 2.0 Turbo | 255 KM | Luxury | Skóra Cognac |",
+  "sellerId": "18278851",
+  "sellerName": "Auto",
+  "sellerWebsite": "https://bydpolczynska.otomoto.pl",
+  "createdAt": "2026-11-26T19:18:33Z",
+  "shortDescription": null,
+  "categoryId": 29,
   "categoryCode": "osobowe",
   "categoryName": "Osobowe",
   "breadcrumbs": [
     "Osobowe",
-    "BMW",
-    "Seria 3"
+    "Audi",
+    "A4 Avant"
   ],
   "breadcrumbUrls": [
     "https://www.otomoto.pl/osobowe",
-    "https://www.otomoto.pl/osobowe/bmw",
-    "https://www.otomoto.pl/osobowe/bmw/seria-3"
+    "https://www.otomoto.pl/osobowe/audi",
+    "https://www.otomoto.pl/osobowe/audi/a4-avant"
   ],
   "verifiedCar": false,
   "promotionServices": [
@@ -359,100 +384,67 @@ Real rows from a recent run: [`sample.json`](sample.json) · [`sample.csv`](samp
     "export_olx"
   ],
   "packages": [
-    "Ultra"
+    "Pro Plus"
   ],
-  "sellerServices": [
-    "financing",
-    "repair",
-    "fast-repair",
-    "tinsmith"
-  ],
-  "sellerUuid": "a99f9b81-027b-415c-a321-85390571359c",
+  "sellerUuid": "d0f5a189-3fa2-44eb-b500-f738b49e6e46",
   "mainFeatures": [
-    "2019",
-    "63400 km",
-    "1998 cm3",
-    "Benzyna"
+    "2022",
+    "130818 km",
+    "1968 cm3",
+    "Diesel"
   ],
   "attributes": {
     "make": {
-      "value": "bmw",
-      "label": "BMW"
+      "value": "audi",
+      "label": "Audi"
     },
     "fuel_type": {
-      "value": "petrol",
-      "label": "Benzyna"
+      "value": "diesel",
+      "label": "Diesel"
     },
     "gearbox": {
       "value": "automatic",
       "label": "Automatyczna"
     },
-    "country_origin": {
-      "value": "usa",
-      "label": "Stany Zjednoczone"
-    },
     "mileage": {
-      "value": "63400",
-      "label": "63400 km"
+      "value": "130818",
+      "label": "130818 km"
     },
     "engine_capacity": {
-      "value": "1998",
-      "label": "1998 cm3"
+      "value": "1968",
+      "label": "1968 cm3"
     },
     "engine_power": {
-      "value": "252",
-      "label": "252 KM"
+      "value": "204",
+      "label": "204 KM"
     },
     "model": {
-      "value": "seria-3",
-      "label": "Seria 3"
+      "value": "a4-avant",
+      "label": "A4 Avant"
     },
     "version": {
-      "value": "ver-330i-xdrive-edition-luxury-line-purity",
-      "label": "330i xDrive Edition Luxury Line Purity"
+      "value": "ver-40-tdi-mhev-quattro-s-line-s-tronic",
+      "label": "40 TDI mHEV Quattro S Line S tronic"
     },
     "year": {
-      "value": "2019",
-      "label": "2019"
+      "value": "2022",
+      "label": "2022"
     }
   },
-  "countryOrigin": "us",
-  "scrapedAt": "2026-11-25T20:57:07Z",
-  "marketMedianPrice": 93250,
-  "priceVsMarketPct": -41.03,
-  "marketCohortCount": 6,
-  "marketOutlier": true,
-  "belowMarket": false,
-  "daysListed": 1,
-  "firstSeen": "2026-11-24T22:29:32Z",
+  "scrapedAt": "2026-11-26T21:52:05Z",
+  "marketMedianPrice": 89900,
+  "priceVsMarketPct": -33.37,
+  "marketCohortCount": 5,
+  "marketOutlier": false,
+  "belowMarket": true,
+  "daysListed": 0,
+  "firstSeen": "2026-11-26T20:01:18Z",
   "daysTracked": 0,
-  "previousPrice": 54990,
+  "previousPrice": 59900,
   "priceChange": 0,
   "priceChangePct": 0,
-  "priceHistory7d": {
-    "asOf": "2026-11-25T20:57:07Z",
-    "points": [
-      {
-        "date": "2026-11-24",
-        "price": 54990
-      },
-      {
-        "date": "2026-11-25",
-        "price": 54990
-      }
-    ]
-  },
-  "observedPriceHistory": [
-    {
-      "date": "2026-11-24",
-      "price": 54990
-    },
-    {
-      "date": "2026-11-25",
-      "price": 54990
-    }
-  ],
-  "priceObservationsCount": 2
+  "firstSeenAt": "2026-11-26T20:01:18Z",
+  "daysToFirstList": 0
 }
 ```
 
